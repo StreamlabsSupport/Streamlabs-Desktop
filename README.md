@@ -49,7 +49,7 @@ If you do not see the pop-up to set the game or title, make sure that **Confirm 
 - Reboot your computer.
 - Try starting Streamlabs OBS as administrator.
 - Update your video drivers and other hardware drivers/software (reboot after updating).
-- Install [Windows C++ Redistributable](https://github.com/ocgineer/Streamlabs-OBS-Solutions#install-visual-c-redistributable)
+- Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 - [Download](http://streamlabs.com/slobs) latest installer and run this as administrator while any AV is disabled temorarily.
 - Add `%appdata%\slobs-client` directory to your Anti-Virus whitelist to not scan/block there.
 
@@ -68,7 +68,7 @@ If you do not see the pop-up to set the game or title, make sure that **Confirm 
 ## Streamlabs OBS randomly crashes during streaming
 
 1. Update your video drivers and other hardware drivers/software.
-2. Install [Windows C++ Redistributable](https://github.com/ocgineer/Streamlabs-OBS-Solutions#install-visual-c-redistributable)
+2. Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 3. Try running Streamlabs OBS as administrator.
 4. [Disable or uninstall GeForce Experience](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
 
@@ -131,7 +131,7 @@ There is a current known issue due to the latest Windows 10 update that might pr
 
 2) Select manually the desktop audio device (audio settings), you use as default device in Windows Sound, not setting it to default. Alternatively you can set it to disabled and add in the scene you want desktop audio an `Audio Output Capture` and select the device that is set as default device in Windows Sound. 
 
-3) Install [Windows C++ Redistributable](https://github.com/ocgineer/Streamlabs-OBS-Solutions#install-visual-c-redistributable)
+3) Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 
 4) Rename the executable name of Streamlabs OBS from `Streamlabs OBS.exe` to `obs64.exe`. You can find the executable on the installed location, which by default is `c:\program files\streamlabs obs\`.
 
@@ -141,7 +141,7 @@ There is a current known issue due to the latest Windows 10 update that might pr
 
 1. Log out from SLOBS, restart the application as administrator and log back in.
 2. You can also double check your stream key if this is still correct.
-3. Install [Windows C++ Redistributable](https://github.com/ocgineer/Streamlabs-OBS-Solutions#install-visual-c-redistributable)
+3. Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 
 If you are using NVENC/AMD encoding;
 
@@ -157,7 +157,7 @@ If this did not work either try the following;
 4. Restart Streamlabs OBS.
 5. Try going live.
 
-If all the steps above did not work please [report the issue on our tracker](https://github.com/ocgineer/Streamlabs-OBS-Solutions#how-do-i-report-any-issues) (**please do so for bug fixing**) so the developers can investigate this issue and create a possible fix for this to prevent this from happening in the future.
+If all the steps above did not work please [report the issue on our tracker](#how-do-i-report-any-issues) (**please do so for bug fixing**) so the developers can investigate this issue and create a possible fix for this to prevent this from happening in the future.
 
 After you have done so, make a backup of your overlay scene collection (Settings > Overlays > Export) even though cloud recovery should record your scene, it never hurts to have a backup if that also failed for some reason. Then `Clear Cache and Restart` found in Settings. This will **wipe** all user data, including scenes and settings, but after logging in the cloud recovery should recover your scenes. You need to redo your settings but this could fix the not going live issue.
 
@@ -165,7 +165,7 @@ After you have done so, make a backup of your overlay scene collection (Settings
 
 > Not Saving any files
 
-- Install [Windows C++ Redistributable](https://github.com/ocgineer/Streamlabs-OBS-Solutions#install-visual-c-redistributable)
+- Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 - Use anything else except lossless quality
     - If used this, set to another quality and then restart the application
 
