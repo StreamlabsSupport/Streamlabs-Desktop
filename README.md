@@ -246,7 +246,7 @@ In Settings > Appearance you can checkmark `Show the live dock (chat) on the lef
 1. Install the latest Streamlabs Mobile App from the [Google Play Store](https://play.google.com/store/apps/details?id=com.streamlabs)
 2. Connect your device to the same local network Streamlabs OBS is on.
 3. Allow Streamlabs OBS through firewall.
-    - See [this FAQ; Allow streaming software through the Firewall](https://support.streamlabs.com/hc/en-us/articles/115000090014-Fix-broken-alerts)
+    - See [see this article](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/Open-Windows-Firewall)
 4. Open Streamlabs OBS `Settings > Remote Control` and click to show the QR code
 5. Ensure that the QR code is not cropped or obstructed (expand the popup window horizontally if needed) 
 6. Scan the QR code with the QR scanner in the Streamlabs Mobile App (under Remote Control in the sidebar).
