@@ -26,10 +26,6 @@ Streamlabs OBS requires some additional files (Visual C++ 2017 Redistributables)
 
 *Both the 32 bit and 64 bit versions should be installed, even if you have a 64 bit version of Windows.*
 
-## Streamlabs OBS crashes when using projector mode
-
-This is a known issue with the latest GeForce Nvidia `397.31` driver. Developers are working to resolve it as soon as possible.
-
 ## Cannot maximize/open Streamlabs OBS from taskbar
 
 If your Streamlabs OBS is open but you are unable to see the window, but it is on the taskbar where you see a preview of the window please select the program so it is highlighted on the taskbar. Then you press `left alt` and `spacebar`. This should open a context menu on the top-left of your screen, where you select `Maximize`.
