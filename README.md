@@ -178,6 +178,7 @@ After you have done so, make a backup of your overlay scene collection (Settings
 
 > Failed to connect to the streaming server. Please check your internet connection.
 
+- Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 - Do not use custom FFMPEG
     - Advanced Output Settings -> Recording -> Type
 
