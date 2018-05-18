@@ -274,7 +274,7 @@ These issues are most likely caused by overloading either the GPU and CPU. At al
 - Skipped Frames; Encoder overloaded, commonly high CPU usage on x264.
 - Dropped Frames; Network issues, try other servers or restart equipment.
 
-If Streamlabs OBS does not give you any warnings but the game is still lagging, the CPU or GPU is still being overloaded for the game to run properly.
+> By default 'Detect lagged frames' notification is disabled by Streamlabs OBS. For troubleshooting please enable this via `Settings -> Notifications` and set the thresholds of the three to 10%.
 
 ### Lagged frames
 
