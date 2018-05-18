@@ -85,7 +85,16 @@ If you are using Windows 10, make sure that in Windows Settings you have disable
 
 Furthermore, try to limit the frames output by the GPU with the likes of V-Sync, G-Sync or Free-sync to the monitors refresh rate, as rendering more frames is a waste of resources if this is causing issues while capturing the game. You could even play and limit the games to 120FPS by using 120Hz as monitor refresh rate, as this is a nice number to be divided to 30 and 60fps for streaming!
 
-If you have sudden FPS issues capturing a DirectX 9 game after the latest major Windows 10 update then you could try to use the [temporary fix for D3D9 games](#directx-9-d3d9-games-on-latest-windows-10-april-2018-1803-update).
+### DirectX 9 (D3D9) Games on latest Windows 10 April 2018 (1803) update
+
+There is a current known issue due to the latest Windows 10 update that might prevent you from properly capturing DirectX 9 games and the following solution is a temporary solution untill a permament fix has been build in.
+
+1. Close Streamlabs OBS
+2. Download [get-graphics-offsets-win10-1803-signed](https://obsproject.com/temp/get-graphics-offsets-win10-1803-signed.zip).
+3. Extract the contents (both files) to `C:\Program Files\Streamlabs OBS\resources\app.asar.unpacked\node_modules\obs-studio-node\libobs\data\obs-plugins\win-capture`
+    - If done correct, it should ask you to overwrite two files and might need administrative permissions.
+    - This is the path of the default installed location, adjust accordingly if needed.
+4. Start Streamlabs OBS
 
 ## Capture Not Working (Black Screen)
 
@@ -98,17 +107,6 @@ If you have sudden FPS issues capturing a DirectX 9 game after the latest major 
 * [Disable or uninstall GeForce Experience](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
 * [Install Visual C++ Redistributable](#install-visual-c-redistributable)
 * [Have updated drivers and software](#have-updated-drivers-and-software)
-
-### DirectX 9 (D3D9) Games on latest Windows 10 April 2018 (1803) update
-
-There is a current known issue due to the latest Windows 10 update that might prevent you from properly capturing DirectX 9 games and the following solution is a temporary solution untill a permament fix has been build in.
-
-1. Close Streamlabs OBS
-2. Download [get-graphics-offsets-win10-1803-signed](https://obsproject.com/temp/get-graphics-offsets-win10-1803-signed.zip).
-3. Extract the contents (both files) to `C:\Program Files\Streamlabs OBS\resources\app.asar.unpacked\node_modules\obs-studio-node\libobs\data\obs-plugins\win-capture`
-    - If done correct, it should ask you to overwrite two files and might need administrative permissions.
-    - This is the path of the default installed location, adjust accordingly if needed.
-4. Start Streamlabs OBS
 
 ### Notebook users on latest Windows 10 April 2018 (1803) update
 
