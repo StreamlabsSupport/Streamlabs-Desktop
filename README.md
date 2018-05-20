@@ -92,6 +92,7 @@ There is a current known issue due to the latest Windows 10 update that might pr
 1. Close Streamlabs OBS
 2. Download [get-graphics-offsets-win10-1803-signed](https://obsproject.com/temp/get-graphics-offsets-win10-1803-signed.zip).
 3. Extract the contents (both files) to `C:\Program Files\Streamlabs OBS\resources\app.asar.unpacked\node_modules\obs-studio-node\libobs\data\obs-plugins\win-capture`
+    - Mind the `data` directory, as there is also another plugin-folder before that, which is incorrect.
     - If done correct, it should ask you to overwrite two files and might need administrative permissions.
     - This is the path of the default installed location, adjust accordingly if needed.
 4. Start Streamlabs OBS
