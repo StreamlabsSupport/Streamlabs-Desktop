@@ -151,9 +151,7 @@ If this did not work either try the following;
 4. Restart Streamlabs OBS.
 5. Try going live.
 
-If all the steps above did not work please [report the issue on our tracker](#how-do-i-report-any-issues) (**please do so for bug fixing**) so the developers can investigate this issue and create a possible fix for this to prevent this from happening in the future.
-
-After you have done so, make a backup of your overlay scene collection (Settings > Overlays > Export) even though cloud recovery should record your scene, it never hurts to have a backup if that also failed for some reason. Then `Clear Cache and Restart` found in Settings. This will **wipe** all user data, including scenes and settings, but after logging in the cloud recovery should recover your scenes. You need to redo your settings but this could fix the not going live issue.
+If the above steps did not work then `Clear Cache and Restart` found in Settings. This will **wipe** all user data, including scenes and settings, but after logging in the cloud recovery should recover your scenes. You need to **redo** your settings but this could fix the not going live issue.
 
 ## Recording is not working or saved
 
