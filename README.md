@@ -77,6 +77,16 @@ If you do not see the pop-up to set the game or title, make sure that **Confirm 
 3. Try running Streamlabs OBS as administrator.
 4. [Disable or uninstall GeForce Experience](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
 
+## Stream stops and has 0kbps output when swapping scenes
+
+If you use a Stinger transition and notice that Streamlabs OBS has stopped your stream, without a warning and bitrate output shows 0kbps this might be cause of the Stringer transition settings.
+
+- Use a different transition other than Stinger to determine the issue.
+- Make sure the stinger video file is set and still exists.
+- Make sure the stringer transition point is set and greater than 0.
+
+If you recovered from cloud storage, Stinger transition might not have been recovered due to a bug that is being worked on to resolve, so you need to manually set the video file or use a different transition temporarily.
+
 ## Game crashes or drops FPS while trying to capture with Streamlabs OBS
 
 If you are using GeForce Experience please disable the `IN-GAME OVERLAY` and `Instant Replay` feature or uninstall Experience completely. Some games can crash or have lower FPS when Streamlabs OBS is trying to capture game footage when GeForece Experience features are enabled and disabling or uninstalling might solve your issue.
