@@ -167,17 +167,18 @@ If the above steps did not work then `Clear Cache and Restart` found in Settings
 
 ## Recording is not working or saved
 
-> Not Saving any files
-
 - Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 - Use anything else except lossless quality
     - If used this, set to another quality and then restart the application
 
 > Failed to connect to the streaming server. Please check your internet connection.
 
-- Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 - Do not use custom FFMPEG
     - Advanced Output Settings -> Recording -> Type
+
+> An unexpected error occured:
+
+- Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 
 > An unexpected error occurred: Unable to write to. Make sure you're using a recording path which your user account is allowed and that there is sufficient disk space.
 
