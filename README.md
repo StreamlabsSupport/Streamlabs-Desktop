@@ -87,6 +87,8 @@ If you use a Stinger transition and notice that Streamlabs OBS has stopped your 
 
 If you recovered from cloud storage, Stinger transition might not have been recovered due to a bug that is being worked on to resolve, so you need to manually set the video file or use a different transition temporarily.
 
+Something else that could be causing this issue is if you are using a Media Source in one of your Scenes or if you are manually adding an Audio Input Capture Source or Audio Output Capture Source. Removing these could also resolve the issue.
+
 ## Game crashes or drops FPS while trying to capture with Streamlabs OBS
 
 If you are using GeForce Experience please disable the `IN-GAME OVERLAY` and `Instant Replay` feature or uninstall Experience completely. Some games can crash or have lower FPS when Streamlabs OBS is trying to capture game footage when GeForece Experience features are enabled and disabling or uninstalling might solve your issue.
