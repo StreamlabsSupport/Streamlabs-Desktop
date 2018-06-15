@@ -168,6 +168,7 @@ If the above steps did not work then `Clear Cache and Restart` found in Settings
 ## Recording is not working or saved
 
 - Install [Windows C++ Redistributable](#install-visual-c-redistributable)
+- Have up-to-date video drivers of your graphics card
 - Use anything else except lossless quality
     - If used this, set to another quality and then restart the application
 
