@@ -3,7 +3,6 @@
 - Roadmap > [found on Trello](https://trello.com/b/oTl4KiBW/streamlabs-obs-roadmap)
 - Backups > Always make backups during beta testing! Settings > Overlays > Export
 - User Data > User data can be found in `%appdata%\slobs-client`
-- New Issues > Please report any issues on our [tracker](http://tracker.streamlabs.com)
 
 ## Getting started with Streamlabs OBS
 
