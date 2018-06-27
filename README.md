@@ -5,10 +5,6 @@
 - User Data > User data can be found in `%appdata%\slobs-client`
 - New Issues > Please report any issues on our [tracker](http://tracker.streamlabs.com)
 
-## How do I report any issues
-
-You can submit issue you have our [Streamlabs OBS Tracker](http://tracker.streamlabs.com/) Also please `Upload cache to Developers` found in General Settings and include the filename of the cache, that got copied to your clipboard by doing so, in the issue.
-
 ## Getting started with Streamlabs OBS
 
 Check out [this Wiki page](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/Getting-Started-with-SL-OBS) for an quick getting started guide with Streamlabs OBS.
