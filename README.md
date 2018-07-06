@@ -63,8 +63,6 @@ If you do not see the pop-up to set the game or title, make sure that **Confirm 
 - Start Streamlabs OBS again and log in.
 - Redo the settings as these are not recovered.
 
-> If this renaming of slobs-client in %appdata% has solved your issue could you please zip up `_slobs-client` and host it on Dropbox or something alike, and DM the link on Discord to `Ocgineer#0042` with the initial issue for further investigation.
-
 ## Streamlabs OBS randomly crashes during streaming
 
 1. Update your video drivers and other hardware drivers/software.
