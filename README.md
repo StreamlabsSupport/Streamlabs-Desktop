@@ -133,6 +133,7 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 4) Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 
 5) Rename the executable name of Streamlabs OBS from `Streamlabs OBS.exe` to `obs64.exe`. You can find the executable on the installed location, which by default is `c:\program files\streamlabs obs\`.
+- Note: If you don't see the `.exe` after the file name, then don't include the `.exe` when renaming the file.
 
 6) As last resort, you can temporary use an alternative program to capture audio like `VoiceMeeter Banana`. This program allows you to set it as default device, and then use a *virtual audio cable* into Streamlabs OBS to capture the desktop audio. You can find various guides on the internet (like [this one](http://www.ocgineer.com/audio.html)) or Youtube. 
 
