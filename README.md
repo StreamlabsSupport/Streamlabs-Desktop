@@ -157,7 +157,7 @@ If this did not work either try the following;
 4. Restart Streamlabs OBS.
 5. Try going live.
 
-If the above steps did not work then `Clear Cache and Restart` found in Settings. This will **wipe** all user data, including scenes and settings, but after logging in the cloud recovery should recover your scenes. You need to **redo** your settings but this could fix the not going live issue.
+If the above steps did not work then `Delete Cache and Restart` found in Settings. This will **wipe** all user data, including scenes and settings, but after logging in the cloud recovery should recover your scenes. You need to **redo** your settings but this could fix the not going live issue.
 
 ## Recording is not working or saved
 
