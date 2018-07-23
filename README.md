@@ -225,7 +225,7 @@ In Settings > Appearance you can checkmark `Show the live dock (chat) on the lef
 
 ## Unable to connect Streamlabs Mobile App Remote Control to Streamlabs OBS
 
-Berfore tying the steps below, simply try going int slobs > settings > Remote Control > Click to Show > Show Details > Generate New.
+Berfore tying the steps below, simply try going into SLOBS > Settings > Remote Control > Click to Show > Show Details > Generate New.
 After doing that, simply restart your computer and it should work as expected. Else try the solutions below.
 
 1. Install the latest Streamlabs Mobile App from the [Google Play Store](https://play.google.com/store/apps/details?id=com.streamlabs)
