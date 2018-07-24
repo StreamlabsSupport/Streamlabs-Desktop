@@ -130,6 +130,7 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 1. Log out from SLOBS, restart the application as administrator and log back in.
 2. You can also double check your stream key if this is still correct.
 3. Install [Windows C++ Redistributable](#install-visual-c-redistributable)
+4. If signed into Streamlabs OBS with twitch you can run the auto-optimizer in settings > General.  
 
 If you are using NVENC/AMD encoding;
 
