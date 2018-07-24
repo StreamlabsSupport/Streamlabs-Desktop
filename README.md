@@ -223,32 +223,9 @@ The side-dock with chat can only be shown when the total width of Streamlabs OBS
 
 In Settings > Appearance you can checkmark `Show the live dock (chat) on the left side`.
 
-## Unable to connect Streamlabs Mobile App Remote Control to Streamlabs OBS
+## Connecting Remote Control to Streamlabs OBS
 
-Berfore tying the steps below, simply try going into SLOBS > Settings > Remote Control > Click to Show > Show Details > Generate New.
-After doing that, simply restart your computer and it should work as expected. Else try the solutions below.
-
-1. Install the latest Streamlabs Mobile App from the [Google Play Store](https://play.google.com/store/apps/details?id=com.streamlabs)
-2. Connect your device to the same local network Streamlabs OBS is on.
-3. Allow Streamlabs OBS through firewall.
-    - See [see this article](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/Open-Windows-Firewall)
-4. Open Streamlabs OBS `Settings > Remote Control` and click to show the QR code
-5. Ensure that the QR code is not cropped or obstructed (expand the popup window horizontally if needed) 
-6. Scan the QR code with the QR scanner in the Streamlabs Mobile App (under Remote Control in the sidebar).
-
-> If your camera is freezing when you try to scan the QR code try enabling `Use pre-L Camera API` found under `Settings -> Broadcast`.
-
-## Mobile Device Having No or Broken Camera
-
-> If you have a mobile Android device with a broken or no camera and would like to use it for the Streamlabs OBS Remote Control you can do the following few steps to connect your the Streamlabs: Livestreaming app to Streamlabs OBS.
-
-1. Take a snapshot of the QR code and save this locally on your computer.
-    - Windows 10 has build in `Snipping Tool` to snip a region and save.
-    - You can use `winlogo`+`shift`+`s` to  take a snip of a region.
-    - Other third party apps around can do the same.
-2. Decode the saved QR code with a decoder like [this website](https://zxing.org/w/decode.jspx).
-3. Copy the raw or parsed text and email the link to yourself.
-4. Open the email on your mobile device and open the emailed link with Streamlabs application.
+Read [Streamlabs OBS Remote Control](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/SL-OBS-Remote-Control) page for setting up Remote Control and troubleshooting steps for unable to connect, broken/not-functioning camera, or connecting over the internet.
 
 ## Stream is losing frames
 
