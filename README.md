@@ -225,7 +225,7 @@ In Settings > Appearance you can checkmark `Show the live dock (chat) on the lef
 
 ## Connecting Remote Control to Streamlabs OBS
 
-Read [Streamlabs OBS Remote Control](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/SL-OBS-Remote-Control) page for setting up Remote Control and troubleshooting steps for unable to connect, broken/not-functioning camera, or connecting over the internet.
+Read [Streamlabs OBS Remote Control](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/SL-OBS-Remote-Control) page for setting up Remote Control and troubleshooting steps for unable to connect, broken camera, unsupported device warning, or connecting over the internet.
 
 ## Stream is losing frames
 
