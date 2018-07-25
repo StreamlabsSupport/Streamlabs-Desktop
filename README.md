@@ -172,24 +172,6 @@ If you have performance issues while streaming and recording, check if you are n
 
 Mouse bindings and certain modifier keys are not yet supported to be used as hotkey.
 
-## Elgato HD60
-
-### HD60 and HD60s
-
-As of this moment when you are using `Elgato Game Capture HD` as video device the configure window will not correctly stay visible when trying to adjust some settings for these devices. If you are in need to adjust these settings, to for example, setup the analog audio inputs then you could try the e following;
-
-Close Streamlabs OBS and open OBS Studio. Add a new capture device and select the `Elgato Game Capture HD` as device and select configure. Setup the settings you want for your stream. Then close the config, properties and OBS Studio. Now if you open Streamlabs OBS the settings should be still set, unless you unplugged the USB device or rebooted your computer.
-
-### HD60 Pro and HD60 4K Pro
-
-If you are using the `Elgato Game Capture HD` as video device, which is a software device installed when installing the Elgato Game Capture HD software. As of this moment the configure window does not work with this device in Streamlabs OBS, but this device is able to output the captured audio normally to the desktop audio. The downside is that you cannot control the captured audio level as the configure panel does not work at the moment, and the audio is routed outside Streamlabs OBS directly onto your Desktop Audio.
-
-If you need to use the configure window make sure your Video Capture Device is set to `Game Capture HD60 (Video) (#01)` as this is the native video device [drivers of the capture card](https://help.elgato.com/customer/portal/articles/2405414-elgato-gaming-hardware-drivers) but are also included when installing the Elgato Game Capture HD software.
-
-*This device driver is only available when you use the internal PCIe capture card and is unable to output the captured audio to the desktop audio for you to hear yourself, unless you use monitoring.*
-
-If you also need **to control the volume** and/or **have the need to listen to the audio**, then you can monitor the audio via the selected monitoring device. To enable this you click the gear icon above the mixer and set the Audio Monitoring to `Monitor and Output`. The monitor device used can be found in Settings -> Advanced.
-
 ## Razer Ripsaw & Avermedia LGP
 
 For the Razer Ripsaw, try to select `HDMI + Aux` as audio input for the HDMI video input which you can find via configure device. If this does not work, try the following down below;
