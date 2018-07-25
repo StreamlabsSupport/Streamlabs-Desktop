@@ -80,7 +80,7 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 
 ## Capture Not Working (Black Screen)
 
-* Run Streamlabs OBS as Administrator.
+* Delete the capture source, restart Streamlabs OBS as administrator, and re-add source.
     - Right click the shortcut on your desktop and select `Run as Administrator`.
 * Have Streamlabs OBS installed in Program Files (default install location).
     - Some games and Windows Store games, like Sea of Thieves, need this due to given additional permissions.
