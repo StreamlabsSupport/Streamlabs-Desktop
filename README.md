@@ -128,23 +128,18 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 ## Not going live on the service
 
 1. Log out from SLOBS, restart the application as administrator and log back in.
-2. You can also double check your stream key if this is still correct.
-3. Install [Windows C++ Redistributable](#install-visual-c-redistributable)
-4. If signed into Streamlabs OBS with twitch you can run the auto-optimizer in settings > General.  
+2. Double check your stream key if this is still correct.
+3. If using Advanced Output Mode and using NVENC/AMD make sure GPU is set to `0`.
+4. Install [Windows C++ Redistributable](#install-visual-c-redistributable)
+5. If signed into Streamlabs OBS with Twitch you can run the auto-optimizer found in General Settings.  
 
-If you are using NVENC/AMD encoding;
+If this did not work either or get the following error;
+> Invalid Path or Connection URL. Please check your settings to confirm that they are valid.
 
-1. Go to `Settings > Output` and set output mode to advanced.
-2. Check if GPU is properly set to 0.
-3. Go back to simple output mode.
-
-If this did not work either try the following;
-
-1. Go to `Stream` in settings and select a **different** service than you want to use.
-2. Go to `Stream` in settings and select the service again you want to use.
-3. Select a different server, and then the server you want to use (**do not use auto**)
-4. Restart Streamlabs OBS.
-5. Try going live.
+1. Go to `Stream` in Settings and select a **different** service than you want to use.
+2. Select the streaming service you want to use again, this reloads the available servers.
+3. Select the server you want to use (**do not use auto**)
+5. Try going live again.
 
 If the above steps did not work then `Delete Cache and Restart` found in Settings. This will **wipe** all user data, including scenes and settings, but after logging in the cloud recovery should recover your scenes. You need to **redo** your settings but this could fix the not going live issue.
 
