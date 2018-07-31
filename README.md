@@ -68,9 +68,14 @@ If you do not see the pop-up to set the game or title, make sure that **Confirm 
 1. Update your video drivers and other hardware drivers/software.
 2. Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 3. Try running Streamlabs OBS as administrator.
-4. [Disable or uninstall GeForce Experience](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
+4. [Disable 3rd party in-game overlays](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
 
 ## Game crashes or drops FPS while trying to capture with Streamlabs OBS
+
+In some cases using 3rd party in-game overlays could cause additional FPS drop or instabilities, especially when you have multiple. If you ever encounter any issues, try disabling them and see if that would increase your performance or stability. A few examples of 3rd party software providing in-game overlays that you can disable if needed;
+- Nvidia GeForce Experience In-Game Overlays
+- Discord In-Game Overlays
+- Steam/UPlay/Origin In-Game Overlays
 
 If you are using GeForce Experience please disable the `IN-GAME OVERLAY` and `Instant Replay` feature. Some games can crash or have lower FPS when Streamlabs OBS is trying to capture game footage when GeForece Experience features are enabled and disabling them might solve your issue.
 
@@ -86,7 +91,7 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
     - Some games and Windows Store games, like Sea of Thieves, need this due to given additional permissions.
 * Use `Capture Specific Window` mode if using Game Capture and/or toggle anti-cheat hook.
 
-* [Disable GeForce Experience recording or instant replay features](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
+* [Disable 3rd party in-game overlays](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
 * [Install Visual C++ Redistributable](#install-visual-c-redistributable)
 * [Have updated drivers and software](#have-updated-drivers-and-software)
 
