@@ -72,7 +72,7 @@ If you do not see the pop-up to set the game or title, make sure that **Confirm 
 
 ## Game crashes or drops FPS while trying to capture with Streamlabs OBS
 
-If you are using GeForce Experience please disable the `IN-GAME OVERLAY` and `Instant Replay` feature or uninstall Experience completely. Some games can crash or have lower FPS when Streamlabs OBS is trying to capture game footage when GeForece Experience features are enabled and disabling or uninstalling might solve your issue.
+If you are using GeForce Experience please disable the `IN-GAME OVERLAY` and `Instant Replay` feature. Some games can crash or have lower FPS when Streamlabs OBS is trying to capture game footage when GeForece Experience features are enabled and disabling them might solve your issue.
 
 If you are using Windows 10, make sure that in Windows Settings you have disabled at least the `Game DVR` feature, and you can also try to disable the `Game Bar` features but this can cause issues with certain Windows Store games and applications if they are using this. You can find these options via the Windows 10 new settings panel -> Gaming.
 
@@ -86,7 +86,7 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
     - Some games and Windows Store games, like Sea of Thieves, need this due to given additional permissions.
 * Use `Capture Specific Window` mode if using Game Capture and/or toggle anti-cheat hook.
 
-* [Disable or uninstall GeForce Experience](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
+* [Disable GeForce Experience](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
 * [Install Visual C++ Redistributable](#install-visual-c-redistributable)
 * [Have updated drivers and software](#have-updated-drivers-and-software)
 
