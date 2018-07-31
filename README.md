@@ -86,7 +86,7 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
     - Some games and Windows Store games, like Sea of Thieves, need this due to given additional permissions.
 * Use `Capture Specific Window` mode if using Game Capture and/or toggle anti-cheat hook.
 
-* [Disable GeForce Experience](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
+* [Disable GeForce Experience recording or instant replay features](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
 * [Install Visual C++ Redistributable](#install-visual-c-redistributable)
 * [Have updated drivers and software](#have-updated-drivers-and-software)
 
