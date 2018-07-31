@@ -73,9 +73,9 @@ If you do not see the pop-up to set the game or title, make sure that **Confirm 
 ## Game crashes or drops FPS while trying to capture with Streamlabs OBS
 
 In some cases using 3rd party in-game overlays could cause additional FPS drop or instabilities, especially when you have multiple. If you ever encounter any issues, try disabling them and see if that would increase your performance or stability. A few examples of 3rd party software providing in-game overlays that you can disable if needed;
-- Nvidia GeForce Experience In-Game Overlays
-- Discord In-Game Overlays
-- Steam/UPlay/Origin In-Game Overlays
+- Nvidia GeForce Experience In-Game Overlay
+- Discord In-Game Overlay
+- Steam/UPlay/Origin In-Game Overlay
 
 If you are using GeForce Experience please disable the `IN-GAME OVERLAY` and `Instant Replay` feature. Some games can crash or have lower FPS when Streamlabs OBS is trying to capture game footage when GeForece Experience features are enabled and disabling them might solve your issue.
 
