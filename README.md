@@ -74,10 +74,10 @@ If you do not see the pop-up to set the game or title, make sure that **Confirm 
 
 In some cases using 3rd party in-game overlays could cause additional FPS drop or instabilities, especially when you have multiple. If you ever encounter any issues, try disabling them and see if that would increase your performance or stability. A few examples of 3rd party software providing in-game overlays that you can disable if needed;
 - Nvidia GeForce Experience In-Game Overlay
+    - Settings (top-right gear icon) -> General -> In-Game Overlay switch.
 - Discord In-Game Overlay
+    - User Settings (bottom-left gear icon) -> Overlay -> Enable in-game overlay switch.
 - Steam/UPlay/Origin In-Game Overlay
-
-If you are using GeForce Experience please disable the `IN-GAME OVERLAY` and `Instant Replay` feature. Some games can crash or have lower FPS when Streamlabs OBS is trying to capture game footage when GeForece Experience features are enabled and disabling them might solve your issue.
 
 If you are using Windows 10, make sure that in Windows Settings you have disabled at least the `Game DVR` feature, and you can also try to disable the `Game Bar` features but this can cause issues with certain Windows Store games and applications if they are using this. You can find these options via the Windows 10 new settings panel -> Gaming.
 
