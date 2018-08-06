@@ -59,7 +59,7 @@ If you do not see the pop-up to set the game or title, make sure that **Confirm 
 - Navigate to `%appdata%` in Windows explorer.
 - Rename `slobs-client` to `_slobs-client` found here.
 - Start Streamlabs OBS and close it again (without logging in).
-- Copy the folders `Overlays` and `SceneCollections` from `_slobs-client` to `slobs-client`.
+- Copy the folders `SceneCollections` from `_slobs-client` to `slobs-client`.
 - Start Streamlabs OBS again and log in.
 - Redo the settings as these are not recovered.
 
