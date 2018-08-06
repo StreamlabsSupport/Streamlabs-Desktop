@@ -150,26 +150,29 @@ If the above steps did not work then `Delete Cache and Restart` found in Setting
 
 ## Recording is not working or saved
 
+> No errors, but no recording file created.
+
 - Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 - Have up-to-date video drivers of your graphics card
 - Use anything else except lossless quality
     - If used this, set to another quality and then restart the application
 
-> Failed to connect to the streaming server. Please check your internet connection.
+> Error; Failed to connect to the streaming server. Please check your internet connection.
 
 - Do not use custom FFMPEG
     - Advanced Output Settings -> Recording -> Type
+- Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 
-> An unexpected error occured:
+> Error; An unexpected error occured:
 
 - Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 
-> An unexpected error occurred: Unable to write to. Make sure you're using a recording path which your user account is allowed and that there is sufficient disk space.
+> Error; An unexpected error occurred: Unable to write to. Make sure you're using a recording path which your user account is allowed and that there is sufficient disk space.
 
 - Do not use Replay buffer (not functional anyway)
     - Simple Output settings -> Recording (at the bottom)
 
-> Performance Issues while streaming and recording.
+## Recording + Streaming Performance Issues
 
 If you have performance issues while streaming and recording, check if you are not using twice of the same encoder, like x264 or NVENC for both streaming and recording. For best performance use either x264 or NVENC/AMD for streaming and then record 'same as stream' (only available in simple output mode at the moment). For better quality recordings and having enough system resources, use x264 as stream encoder and NVENC/AMD as recording encoder.
 
