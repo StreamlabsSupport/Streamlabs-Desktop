@@ -85,6 +85,7 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 
 ## Capture Not Working (Black Screen)
 
+* If you have Studio Mode Enabled, please disable it first, then see if that fixes your issue, else try the steps below.
 * Delete the capture source, restart Streamlabs OBS as administrator, and re-add source.
     - Right click the shortcut on your desktop and select `Run as Administrator`.
 * Have Streamlabs OBS installed in Program Files (default install location).
