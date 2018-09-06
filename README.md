@@ -103,7 +103,7 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 3. Select `Graphic settings` (found at the bottom of the settings page)
     - This is in the `Display` settings that should be selected by default.
 4. Select `Classic app` and browse to the Streamlabs OBS executable.
-    - Default location: `C:\Program Files\Streamlabs OBS\` > `Streamlabs OBS.exe`
+    - Default location: `C:\Program Files\Streamlabs OBS\` > `obs64.exe`
 5. Select the newly created Streamlabs OBS and hit options.
 6. Select `High Performance` and Save.
 
@@ -126,10 +126,7 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 
 4) Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 
-5) Rename the executable name of Streamlabs OBS from `Streamlabs OBS.exe` to `obs64.exe`. You can find the executable on the installed location, which by default is `c:\program files\streamlabs obs\`.
-- Note: If you don't see the `.exe` after the file name, then don't include the `.exe` when renaming the file.
-
-6) As last resort, you can temporary use an alternative program to capture audio like `VoiceMeeter Banana`. This program allows you to set it as default device, and then use a *virtual audio cable* into Streamlabs OBS to capture the desktop audio. You can find various guides on the internet (like [this one](http://www.ocgineer.com/audio.html)) or Youtube. 
+5) As last resort, you can temporary use an alternative program to capture audio like `VoiceMeeter Banana`. This program allows you to set it as default device, and then use a *virtual audio cable* into Streamlabs OBS to capture the desktop audio. You can find various guides on the internet (like [this one](http://www.ocgineer.com/audio.html)) or Youtube. 
 
 ## Not going live on the service
 
@@ -183,9 +180,7 @@ Mouse bindings and certain modifier keys are not yet supported to be used as hot
 
 ## Razer Ripsaw & Avermedia LGP
 
-For the Razer Ripsaw, try to select `HDMI + Aux` as audio input for the HDMI video input which you can find via configure device. If this does not work, try the following down below;
-
-As of this moment users are able to successfully capture audio from the Razer Ripsaw by renaming the Streamlabs OBS executable to that of OBS Studio. Rename the executable name of Streamlabs OBS from `Streamlabs OBS.exe` to `obs64.exe`, found in installed location, which by default is `c:\program files\streamlabs obs\`.
+For the Razer Ripsaw, try to select `HDMI + Aux` as audio input for the HDMI video input which you can find via configure device.
 
 ## High CPU usage in Idle
 
