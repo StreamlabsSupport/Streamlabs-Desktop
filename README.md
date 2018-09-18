@@ -1,11 +1,3 @@
-[![](http://img.youtube.com/vi/d--1z_W9IVw/0.jpg)](http://www.youtube.com/watch?v=d--1z_W9IVw "How to Download, Install, and Go Live with Streamlabs OBS | Streamlabs OBS Tutorial")
-
-# Streamlabs OBS Issues and Solutions
-
-- Roadmap > [found on Trello](https://trello.com/b/oTl4KiBW/streamlabs-obs-roadmap)
-- Backups > Always make backups during beta testing! Settings > Overlays > Export
-- User Data > User data can be found in `%appdata%\slobs-client`
-
 ## Getting started with Streamlabs OBS
 
 Check out [this Wiki page](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/Getting-Started-with-SL-OBS) for an quick getting started guide with Streamlabs OBS.
@@ -13,6 +5,14 @@ Check out [this Wiki page](https://github.com/StreamlabsSupport/Streamlabs-OBS/w
 ## Have updated drivers and software
 
 Always have up-to-date software and drivers of your hardware if you encounter any issues. Especially make sure your video drivers are up to date to the latest version.
+
+[![](http://img.youtube.com/vi/d--1z_W9IVw/0.jpg)](http://www.youtube.com/watch?v=d--1z_W9IVw "How to Download, Install, and Go Live with Streamlabs OBS | Streamlabs OBS Tutorial")
+
+# Streamlabs OBS Issues and Solutions
+
+- Roadmap > [found on Trello](https://trello.com/b/oTl4KiBW/streamlabs-obs-roadmap)
+- Backups > Always make backups during beta testing! Settings > Overlays > Export
+- User Data > User data can be found in `%appdata%\slobs-client`
 
 ## Install Visual C++ Redistributable
 
