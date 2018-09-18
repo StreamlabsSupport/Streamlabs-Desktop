@@ -244,3 +244,4 @@ In addition to the **dropped frames**, make also sure the video + audio bitrate 
 
 If you are using Twitch you can test various Twitch servers with this with [this tool](https://r1ch.net/projects/twitchtest), as your ISP routing can be messed up as well. 
 
+[![](http://img.youtube.com/vi/WnRhaZaQ2ns/0.jpg)](http://www.youtube.com/watch?v=WnRhaZaQ2ns "A Streamers' Quick Guide To Frame Management")
