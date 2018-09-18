@@ -224,6 +224,8 @@ These issues are most likely caused by overloading either the GPU and CPU. At al
 
 > By default 'Detect lagged frames' notification is disabled by Streamlabs OBS. For troubleshooting please enable this via `Settings -> Notifications` and set the thresholds of the three to 10%.
 
+[![](http://img.youtube.com/vi/WnRhaZaQ2ns/0.jpg)](http://www.youtube.com/watch?v=WnRhaZaQ2ns "A Streamers' Quick Guide To Frame Management")
+
 ### Lagged frames
 
 IF you are getting **lagged frames** or the game is having slow FPS then  your GPU is being overloaded. Lower the graphics quality in game so streaming software gets more breathing room to compose the frames for the encoder. You can also limit the FPS or use v-sync. One could even consider locking to 120FPS (and 120Hz) as this is a nice /2 division for 60FPS and /4 division for 30FPS streaming.
@@ -243,5 +245,3 @@ If you are having **dropped frames** this is most likely the network/internet co
 In addition to the **dropped frames**, make also sure the video + audio bitrate is not exceeding or is getting close to your internet upload speed. Having other users on same network using upload (like cloud storage) will lower the throughput of the upload.
 
 If you are using Twitch you can test various Twitch servers with this with [this tool](https://r1ch.net/projects/twitchtest), as your ISP routing can be messed up as well. 
-
-[![](http://img.youtube.com/vi/WnRhaZaQ2ns/0.jpg)](http://www.youtube.com/watch?v=WnRhaZaQ2ns "A Streamers' Quick Guide To Frame Management")
