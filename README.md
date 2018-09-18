@@ -2,6 +2,7 @@
 
 Check out [this Wiki page](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/Getting-Started-with-SL-OBS) for an quick getting started guide with Streamlabs OBS.
 
+
 ## Have updated drivers and software
 
 Always have up-to-date software and drivers of your hardware if you encounter any issues.
@@ -9,13 +10,16 @@ Always have up-to-date software and drivers of your hardware if you encounter an
 Especially make sure your video drivers are up to date to the latest version.
 
 
+
 [![](http://img.youtube.com/vi/d--1z_W9IVw/0.jpg)](http://www.youtube.com/watch?v=d--1z_W9IVw "How to Download, Install, and Go Live with Streamlabs OBS | Streamlabs OBS Tutorial")
+
 
 # Streamlabs OBS Issues and Solutions
 
 - Roadmap > [found on Trello](https://trello.com/b/oTl4KiBW/streamlabs-obs-roadmap)
 - Backups > Always make backups during beta testing! Settings > Overlays > Export
 - User Data > User data can be found in `%appdata%\slobs-client`
+
 
 ## Install Visual C++ Redistributable
 
@@ -26,13 +30,16 @@ Streamlabs OBS requires some additional files (Visual C++ 2017 Redistributables)
 
 *Both the 32 bit and 64 bit versions should be installed, even if you have a 64 bit version of Windows.*
 
+
 ## Cannot maximize/open Streamlabs OBS from taskbar
 
 If your Streamlabs OBS is open but you are unable to see the window, but it is on the taskbar where you see a preview of the window please select the program so it is highlighted on the taskbar. Then you press `left alt` and `spacebar`. This should open a context menu on the top-left of your screen, where you select `Maximize`.
 
+
 ## Update is stuck at 100%
 
 Redownload Streamlabs OBS from [https://streamlabs.com/slobs](https://streamlabs.com/slobs) and run the installer as administrator. There should be no need to uninstall or delete any data prior doing so.
+
 
 ## Game optimized encoder settings
 
@@ -46,6 +53,7 @@ The game optimized encoder settings is currently only available when using **sof
 If you use a dedicated stream PC to encode or you have a powerful single PC that manages to go slower than veryfast, for example medium, it would not be best to use the optimized encoder settings, as no higher profile exists at this moment.
 
 If you do not see the pop-up to set the game or title, make sure that **Confirm stream title and game before going live** is set found in the General Settings.
+
 
 ## Streamlabs OBS crashes during startup
 
@@ -68,12 +76,14 @@ If you do not see the pop-up to set the game or title, make sure that **Confirm 
 - Start Streamlabs OBS again and log in.
 - Redo the settings as these are not recovered.
 
+
 ## Streamlabs OBS randomly crashes during streaming
 
 1. Update your video drivers and other hardware drivers/software.
 2. Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 3. Try running Streamlabs OBS as administrator.
 4. [Disable 3rd party in-game overlays](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
+
 
 ## Game crashes or drops FPS while trying to capture with Streamlabs OBS
 
@@ -88,6 +98,7 @@ If you are using Windows 10, make sure that in Windows Settings you have disable
 
 Furthermore, try to limit the frames output by the GPU with the likes of V-Sync, G-Sync or Free-sync to the monitors refresh rate, as rendering more frames is a waste of resources if this is causing issues while capturing the game. You could even play and limit the games to 120FPS by using 120Hz as monitor refresh rate, as this is a nice number to be divided to 30 and 60fps for streaming!
 
+
 ## Capture Not Working (Black Screen)
 
 * If you have Studio Mode Enabled, please disable it first, then see if that fixes your issue, else try the steps below.
@@ -101,6 +112,7 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 * [Install Visual C++ Redistributable](#install-visual-c-redistributable)
 * [Have updated drivers and software](#have-updated-drivers-and-software)
 
+
 ### Notebook users on latest Windows 10 April 2018 (1803) update
 
 1. Open Windows 10 settings
@@ -112,6 +124,7 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 5. Select the newly created Streamlabs OBS and hit options.
 6. Select `High Performance` and Save.
 
+
 ### Notebook users prior Windows 10 April 2018 (1803) update and Windows 7/8
 
 1. Open up the **Nvidia Control Panel**.
@@ -120,6 +133,7 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 2. Select **Desktop** in the menu bar.
 3. Enable **Add Desktop Context Menu** option.
 4. Right click **Streamlabs OBS shortcut** -> Run with graphics processor -> High Performance NVIDIA Processor .
+
 
 ## Not capturing desktop audio
 
@@ -135,6 +149,7 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 - Note: If you don't see the `.exe` after the file name, then don't include the `.exe` when renaming the file.
 
 6) As last resort, you can temporary use an alternative program to capture audio like `VoiceMeeter Banana`. This program allows you to set it as default device, and then use a *virtual audio cable* into Streamlabs OBS to capture the desktop audio. You can find various guides on the internet (like [this one](http://www.ocgineer.com/audio.html)) or Youtube. 
+
 
 ## Not going live on the service
 
@@ -153,6 +168,7 @@ If this did not work either or get the following error;
 5. Try going live again.
 
 If the above steps did not work then `Delete Cache and Restart` found in Settings. This will **wipe** all user data, including scenes and settings, but after logging in the cloud recovery should recover your scenes. You need to **redo** your settings but this could fix the not going live issue.
+
 
 ## Recording is not working or saved
 
@@ -178,19 +194,23 @@ If the above steps did not work then `Delete Cache and Restart` found in Setting
 - Do not use Replay buffer (not functional anyway)
     - Simple Output settings -> Recording (at the bottom)
 
+
 ## Recording + Streaming Performance Issues
 
 If you have performance issues while streaming and recording, check if you are not using twice of the same encoder, like x264 or NVENC for both streaming and recording. For best performance use either x264 or NVENC/AMD for streaming and then record 'same as stream' (only available in simple output mode at the moment). For better quality recordings and having enough system resources, use x264 as stream encoder and NVENC/AMD as recording encoder.
 
+
 ## Modifier Keys and Mouse Buttons as Hotkey
 
 Mouse bindings and certain modifier keys are not yet supported to be used as hotkey.
+
 
 ## Razer Ripsaw & Avermedia LGP
 
 For the Razer Ripsaw, try to select `HDMI + Aux` as audio input for the HDMI video input which you can find via configure device. If this does not work, try the following down below;
 
 As of this moment users are able to successfully capture audio from the Razer Ripsaw by renaming the Streamlabs OBS executable to that of OBS Studio. Rename the executable name of Streamlabs OBS from `Streamlabs OBS.exe` to `obs64.exe`, found in installed location, which by default is `c:\program files\streamlabs obs\`.
+
 
 ## High CPU usage in Idle
 
@@ -207,17 +227,22 @@ As of this moment users are able to successfully capture audio from the Razer Ri
 
 > Enabling Performance mode in Streamlabs OBS will help reduce load on the GPU/CPU slightly. This can be done by right clicking on the preview and selecting "Performance Mode"
 
+
 ## I cannot find the side-dock with chat
 
 The side-dock with chat can only be shown when the total width of Streamlabs OBS is 1100px or greater. So monitors that have a horizontal resolution less than that (or you are using landscape, causing this) chat is currently unavailable. If the total width of Streamlabs OBS does meet this criteria you'll see a thin bar either on the left or right (depending on your appearance settings) to slide open the dock.
+
 
 ## Set side-dock with the chat to left side
 
 In Settings > Appearance you can checkmark `Show the live dock (chat) on the left side`.
 
+
 ## Connecting Remote Control to Streamlabs OBS
 
 Read [Streamlabs OBS Remote Control](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/SL-OBS-Remote-Control) page for setting up Remote Control and troubleshooting steps for unable to connect, broken camera, unsupported device warning, or connecting over the internet.
+
+
 
 [![](http://img.youtube.com/vi/CihXy5UVP64/0.jpg)](http://www.youtube.com/watch?v=CihXy5UVP64 "Live Streaming Remote Control for Streamlabs OBS!")
 
@@ -234,6 +259,7 @@ These issues are most likely caused by overloading either the GPU and CPU. At al
 
 [![](http://img.youtube.com/vi/WnRhaZaQ2ns/0.jpg)](http://www.youtube.com/watch?v=WnRhaZaQ2ns "A Streamers' Quick Guide To Frame Management")
 
+
 ### Lagged frames
 
 IF you are getting **lagged frames** or the game is having slow FPS then  your GPU is being overloaded. Lower the graphics quality in game so streaming software gets more breathing room to compose the frames for the encoder. You can also limit the FPS or use v-sync. One could even consider locking to 120FPS (and 120Hz) as this is a nice /2 division for 60FPS and /4 division for 30FPS streaming.
@@ -242,9 +268,11 @@ Regardless of software or hardware encoding selection, streaming software requir
 
 > Ensure that you in game FPS is not exceeding your monitors refresh rate. Enabling V-Sync in game will help resolve this issue
 
+
 ### Skipped frames
 
 If you are using software (x264) encoding and are running into high CPU usage issues, causing **skipped frames**, consider using a faster preset or start using hardware encoding (NVENC/AMD) as that wont load the CPU extra to encode the stream.
+
 
 ### Dropped frames
 
