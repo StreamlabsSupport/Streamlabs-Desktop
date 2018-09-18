@@ -4,7 +4,8 @@ Check out [this Wiki page](https://github.com/StreamlabsSupport/Streamlabs-OBS/w
 
 ## Have updated drivers and software
 
-Always have up-to-date software and drivers of your hardware if you encounter any issues. Especially make sure your video drivers are up to date to the latest version.
+Always have up-to-date software and drivers of your hardware if you encounter any issues.
+Especially make sure your video drivers are up to date to the latest version.
 
 [![](http://img.youtube.com/vi/d--1z_W9IVw/0.jpg)](http://www.youtube.com/watch?v=d--1z_W9IVw "How to Download, Install, and Go Live with Streamlabs OBS | Streamlabs OBS Tutorial")
 
