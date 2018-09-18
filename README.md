@@ -1,3 +1,5 @@
+[![](http://img.youtube.com/vi/d--1z_W9IVw/0.jpg)](http://www.youtube.com/watch?v=d--1z_W9IVw "How to Download, Install, and Go Live with Streamlabs OBS | Streamlabs OBS Tutorial")
+
 # Streamlabs OBS Issues and Solutions
 
 - Roadmap > [found on Trello](https://trello.com/b/oTl4KiBW/streamlabs-obs-roadmap)
@@ -7,8 +9,6 @@
 ## Getting started with Streamlabs OBS
 
 Check out [this Wiki page](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/Getting-Started-with-SL-OBS) for an quick getting started guide with Streamlabs OBS.
-
-[![](http://img.youtube.com/vi/d--1z_W9IVw/0.jpg)](http://www.youtube.com/watch?v=d--1z_W9IVw "How to Download, Install, and Go Live with Streamlabs OBS | Streamlabs OBS Tutorial")
 
 ## Have updated drivers and software
 
