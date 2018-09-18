@@ -8,6 +8,7 @@ Always have up-to-date software and drivers of your hardware if you encounter an
 
 Especially make sure your video drivers are up to date to the latest version.
 
+
 [![](http://img.youtube.com/vi/d--1z_W9IVw/0.jpg)](http://www.youtube.com/watch?v=d--1z_W9IVw "How to Download, Install, and Go Live with Streamlabs OBS | Streamlabs OBS Tutorial")
 
 # Streamlabs OBS Issues and Solutions
