@@ -216,6 +216,9 @@ In Settings > Appearance you can checkmark `Show the live dock (chat) on the lef
 
 Read [Streamlabs OBS Remote Control](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/SL-OBS-Remote-Control) page for setting up Remote Control and troubleshooting steps for unable to connect, broken camera, unsupported device warning, or connecting over the internet.
 
+[![](http://img.youtube.com/vi/CihXy5UVP64/0.jpg)](http://www.youtube.com/watch?v=CihXy5UVP64 "Live Streaming Remote Control for Streamlabs OBS!")
+
+
 ## Stream is losing frames
 
 These issues are most likely caused by overloading either the GPU and CPU. At all times keep and eye out for both the total CPU and GPU usage in Windows task manager (if you do not have GPU in Windows 10, update to the latest major update). Some games are known to be broken and like to use all available CPU or GPU resources and cause issues for streaming software.
