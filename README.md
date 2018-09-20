@@ -122,7 +122,7 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 4. Select `Classic app` and browse to the Streamlabs OBS executable.
     - Default location: `C:\Program Files\Streamlabs OBS\` > `Streamlabs OBS.exe`
 5. Select the newly created Streamlabs OBS and hit options.
-6. Select `High Performance` and Save.
+6. Select `Power Saving Mode` and Save.
 
 
 ### Notebook users prior Windows 10 April 2018 (1803) update and Windows 7/8
