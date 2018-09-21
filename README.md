@@ -120,7 +120,8 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
     - Can be found in the system Control Panel -> Appearance and Personalization.
 2. Select **Desktop** in the menu bar.
 3. Enable **Add Desktop Context Menu** option. (This may already be enabled)
-4. Right click **Streamlabs OBS shortcut** -> Run with graphics processor -> Power saving mode .
+4. Right click **Streamlabs OBS shortcut** -> Run with graphics processor -> Integrated graphics .
+Screenshot -> https://prnt.sc/kwyv9x
 
 
 ## Not capturing desktop audio
