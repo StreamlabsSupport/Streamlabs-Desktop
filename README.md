@@ -115,18 +115,29 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 
 ### Display capture not working for Nvidia notebook users
 
-1.   Add a Streamlabs OBS shortcut to your desktop
-2.   Right click **Streamlabs OBS shortcut** -> Run with graphics processor -> Integrated graphics .
-     Screenshot -> https://prnt.sc/kwyv9x
+1.   Have Streamlabs OBS shortcut on your desktop, if not add it.
+2.   Right-click the `Streamlabs OBS` shortcut and select `Run with graphics processor -> Integrated graphics`.
+        - https://prnt.sc/kwyv9x
 
-**If the right click option is not there;** 
-*  Open up the **Nvidia Control Panel**.
-      - Normally found by right-clicking on the desktop.
-      - Can be found in the system Control Panel -> Appearance and Personalization.
-*  Select **Desktop** in the menu bar.
-*  Enable **Add Desktop Context Menu** option.
-*  Repeat step 1
+> If you cannot find the option Run with graphics processror in the context menu then follow the following extra steps.
 
+1. Open up the `Nvidia Control Panel`.
+      - Normally found by right-clicking on the desktop if added to the context menu.
+      - Can be found in the system `Control Panel -> Appearance and Personalization`.
+2. Select `Desktop` in the menu bar.
+3. Enable `Add "Run with graphics processor" to Context Menu` option.
+4. Follow the above steps.
+
+### AMD/ATI Notebeook users with latest Windows 10 April 2018 (1803) update
+
+1. Open Windows 10 settings
+2. Select `System`
+3. Select `Graphic settings` (found at the bottom of the Display settings page).
+    - This is in the `Display` settings that should be selected by default.
+4. Select `Classic app` and browse to the Streamlabs OBS executable.
+    - Default location: `C:\Program Files\Streamlabs OBS\` > `Streamlabs OBS.exe`
+5. Select the newly created Streamlabs OBS and hit options.
+6. Select `Power Saving Mode` and Save.
 
 ## Not capturing desktop audio
 
