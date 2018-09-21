@@ -119,14 +119,13 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 2.   Right-click the `Streamlabs OBS` shortcut and select `Run with graphics processor -> Integrated graphics`.
         - https://prnt.sc/kwyv9x
 
-> If you cannot find the option Run with graphics processror in the context menu then follow the following extra steps.
+> If you cannot find the option Run with graphics processor in the context menu then follow the following extra steps.
 
 1. Open up the `Nvidia Control Panel`.
       - Normally found by right-clicking on the desktop if added to the context menu.
       - Can be found in the system `Control Panel -> Appearance and Personalization`.
 2. Select `Desktop` in the menu bar.
 3. Enable `Add "Run with graphics processor" to Context Menu` option.
-4. Follow the above steps.
 
 ### AMD/ATI Notebeook users with latest Windows 10 April 2018 (1803) update
 
