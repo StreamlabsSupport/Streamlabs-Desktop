@@ -119,13 +119,13 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 2.   Right click **Streamlabs OBS shortcut** -> Run with graphics processor -> Integrated graphics .
      Screenshot -> https://prnt.sc/kwyv9x
 
-If the right click option is not there; 
-2.1.  Open up the **Nvidia Control Panel**.
+**If the right click option is not there;** 
+*  Open up the **Nvidia Control Panel**.
       - Normally found by right-clicking on the desktop.
       - Can be found in the system Control Panel -> Appearance and Personalization.
-2.2  Select **Desktop** in the menu bar.
-2.3  Enable **Add Desktop Context Menu** option.
-2.4  Repeat step 1
+*  Select **Desktop** in the menu bar.
+*  Enable **Add Desktop Context Menu** option.
+*  Repeat step 1
 
 
 ## Not capturing desktop audio
