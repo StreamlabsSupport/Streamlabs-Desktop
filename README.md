@@ -127,6 +127,8 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 2. Select `Desktop` in the menu bar.
 3. Enable `Add "Run with graphics processor" to Context Menu` option.
 
+> If you receive an error saying you do not have the privilege to select the graphics processor in this menu: Right click Streamlabs OBS > Properties > Compatability > Untick "Always run as admin" > http://prntscr.com/kzh8as
+
 ### AMD/ATI Notebeook users with latest Windows 10 April 2018 (1803) update
 
 1. Open Windows 10 settings
