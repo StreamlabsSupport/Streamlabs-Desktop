@@ -84,6 +84,10 @@ If you do not see the pop-up to set the game or title, make sure that **Confirm 
 3. Try running Streamlabs OBS as administrator.
 4. [Disable 3rd party in-game overlays](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
 
+## Stream goes offline when switching scenes (0kbps bug)
+
+If you are still experiencing the issue where the encoder fails when switching scenes you will need to open the transition menu and add a new transition of any type. Once you have done this simply deleting the previous transition should resolve the issue. Gif of how to do this here: https://goo.gl/mgzcBc
+
 
 ## Game crashes or drops FPS while trying to capture with Streamlabs OBS
 
