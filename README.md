@@ -144,6 +144,17 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 5. Select the newly created Streamlabs OBS and hit options.
 6. Select `Power Saving Mode` and Save.
 
+### Force SLOBS To Use AMD Graphics Card
+
+Open the AMD Catalyst Control Center app by right-clicking on an empty area on your desktop. Select ‘Catalyst Control Center’ from the context menu. From the list of panels on the left, select ‘Power’. Under ‘Power’, select ‘Switchable application graphics settings’.
+
+Here you will see a list of apps that AMD already recognizes as needing better GPU support. On this panel is an ‘Add Application’ button. Click it and select the EXE of the app you want to force to use the AMD graphics card.
+
+After you add the application, open the dropdown next to it for setting graphics options. Select ‘High performance’ and you’re done. The app will always use AMD graphics card.
+
+We should mention that some options may differ depending on your driver version and the GPU model you have. These solutions will still work but the options may be found under a different menu.
+
+
 ## Not capturing desktop audio
 
 1) Make sure the audio source is not muted in the mixer on slobs.
