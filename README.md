@@ -88,7 +88,7 @@ Please enable Aero on Windows 7:
 
 ## For "Something went wrong" on Windows 7
 
-To resolve the this issue on Windows 7, download and install [.NET Framework 4.7.2](https://www.microsoft.com/net/download/dotnet-framework-runtime)
+To resolve this issue on Windows 7, download and install [.NET Framework 4.7.2](https://www.microsoft.com/net/download/dotnet-framework-runtime)
 
 ## For troubleshooting "Something went wrong, unable to update", please do the following steps in this order:
 
