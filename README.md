@@ -92,13 +92,19 @@ To resolve the blackscreen issue on Windows 7, download and install [.NET Framew
 
 ## For troubleshooting "Something went wrong, unable to update", please do the following steps in this order:
 
-- Redownload Streamlabs OBS from: https://streamlabs.com/slobs and run the installer as administrator. There should be no need to uninstall or delete any data prior doing so.
+- Redownload Streamlabs OBS from: https://streamlabs.com/slobs and run the installer as administrator.
+- There should be no need to uninstall or delete any data prior doing so.
+
 - Update hardware drivers/Windows
+
 - Install [Windows C++ Redistributable](#install-visual-c-redistributable)
+
 - [Firewall fix](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/Open-Windows-Firewall)
 - [IPv6 fix](https://support.streamlabs.com/hc/en-us/articles/115004232954-How-to-solve-IPv6-issues)
+
 - [Install DirectX](https://www.microsoft.com/en-us/download/details.aspx?id=35)
-- If that above DirectX does not work, then please try this as well - https://obsproject.com/forum/resources/directx-dependency-fixer-dxfix.87/)
+- If that above DirectX does not work, then please try this as well
+- https://obsproject.com/forum/resources/directx-dependency-fixer-dxfix.87/
 
 > If you are still having the issue you could try to clear the user data of Streamlabs OBS and see if that could resolve the issue with starting up. Do keep in mind by doing so you are deleting user data and you need to login, redo your settings and potentially re-adjust your scenes and scene collections depending on the cloud recovery. **Not recommended but only used as last resort.**
 
