@@ -104,7 +104,7 @@ To resolve the blackscreen issue on Windows 7, download and install [.NET Framew
 
 - [Install DirectX](https://www.microsoft.com/en-us/download/details.aspx?id=35)
 - If that above DirectX does not work, then please try this as well
-- https://obsproject.com/forum/resources/directx-dependency-fixer-dxfix.87/
+> https://obsproject.com/forum/resources/directx-dependency-fixer-dxfix.87/
 
 > If you are still having the issue you could try to clear the user data of Streamlabs OBS and see if that could resolve the issue with starting up. Do keep in mind by doing so you are deleting user data and you need to login, redo your settings and potentially re-adjust your scenes and scene collections depending on the cloud recovery. **Not recommended but only used as last resort.**
 
