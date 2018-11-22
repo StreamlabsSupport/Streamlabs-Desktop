@@ -209,7 +209,7 @@ We should mention that some options may differ depending on your driver version 
 
 ## Not going live on the service
 
-1. Log out from SLOBS, restart the application as administrator and log back in.
+1. Log out from SLOBS, restart the application as administrator and log back in. If using Twitch ensure your not running a rerun of a previous stream as this will prevent you going live. If you are simply end it and hit go live again.  
 2. Double check your stream key if this is still correct.
 3. If using Advanced Output Mode and using NVENC/AMD make sure GPU is set to `0`.
 4. Install [Windows C++ Redistributable](#install-visual-c-redistributable)
@@ -224,6 +224,10 @@ If this did not work either or get the following error;
 5. Try going live again.
 
 If the above steps did not work then `Delete Cache and Restart` found in Settings. This will **wipe** all user data, including scenes and settings, but after logging in the cloud recovery should recover your scenes. You need to **redo** your settings but this could fix the not going live issue.
+
+## Stream starting in 0 seconds (or negative value)
+
+In settings advanced ensure a negative value is not set as the stream delay it must be 0 or greater. 
 
 
 ## Recording is not working or saved
