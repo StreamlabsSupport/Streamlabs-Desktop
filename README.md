@@ -38,7 +38,8 @@ If your Streamlabs OBS is open but you are unable to see the window, but it is o
 
 ## Update is stuck at 100%
 
-Redownload Streamlabs OBS from [https://streamlabs.com/slobs](https://streamlabs.com/slobs) and run the installer as administrator. There should be no need to uninstall or delete any data prior doing so.
+Redownload Streamlabs OBS from [https://streamlabs.com/slobs](https://streamlabs.com/slobs) and run the installer as administrator.
+> There should be no need to uninstall or delete any data prior doing so.
 
 
 ## Game optimized encoder settings
