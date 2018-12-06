@@ -53,13 +53,7 @@ More info at: https://support.streamlabs.com/hc/en-us/articles/360013289773
 
 ## If you are on Windows 7 please do the following if experiencing crashing issues when launching Streamlabs OBS
 
-Please enable Aero on Windows 7:
-1. Close Streamlabs OBS and then select an Aero Theme
-        Note: pick this default theme if you do not know which one to pick: https://cdn.discordapp.com/attachments/466431499021844480/492366113162788865/unknown.png
-2. If Aero is ON (check this screenshot to verify: https://i.gyazo.com/84d9078f97714481c9d71eada58c78c8.png) then simply run Streamlabs OBS but if not please continue to the next step
-3. Make sure Streamlabs OBS is closed and that an Aero Theme is selected then search for cmd in windows search bar & run it as admin. 
-4. Enter two lines of command, first type net stop uxsms hit enter and let it process (few secs) then type net start uxsms and hit enter again. 
-4. Aero should now be on and you can open Streamlabs OBS again. Refer to this screenshot to ensure that it is on: https://i.gyazo.com/84d9078f97714481c9d71eada58c78c8.png
+More info at: https://support.streamlabs.com/hc/en-us/articles/360013195194
 
 ## For "Something went wrong" on Windows 7
 
