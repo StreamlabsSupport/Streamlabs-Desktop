@@ -49,24 +49,7 @@ More info at: https://support.streamlabs.com/hc/en-us/articles/360013194654
 
 ## Streamlabs OBS crashes during startup
 
-> Do not try to run Streamlabs OBS on a Mac(book) with bootcamp or on macOS with Wine. These are currently not supported and we cannot provide any assistance with this. Most likely the cause for Bootcamp users is the lack of proper updated video drivers, and for Wine it would be vital required components.
-
-- Reboot your computer.
-- Try starting Streamlabs OBS as administrator.
-- Update your video drivers and other hardware drivers/software (reboot after updating).
-- Install [Windows C++ Redistributable](#install-visual-c-redistributable)
-- [Download](http://streamlabs.com/slobs) latest installer and run this as administrator while any AV is disabled temorarily.
-- Add `%appdata%\slobs-client` directory to your Anti-Virus whitelist to not scan/block there.
-
-> If you are still having the issue you could try to clear the user data of Streamlabs OBS and see if that could resolve the issue with starting up. Do keep in mind by doing so you are deleting user data and you need to login, redo your settings and potentially re-adjust your scenes and scene collections depending on the cloud recovery. **Not recommended but only used as last resort.**
-
-- Make sure Streamlabs OBS is closed and not running in the background in task manager.
-- Navigate to `%appdata%` in Windows explorer.
-- Rename `slobs-client` to `_slobs-client` found here.
-- Start Streamlabs OBS and close it again (without logging in).
-- Copy the folders `SceneCollections` from `_slobs-client` to `slobs-client`.
-- Start Streamlabs OBS again and log in.
-- Redo the settings as these are not recovered.
+More info at: https://support.streamlabs.com/hc/en-us/articles/360013289773
 
 ## If you are on Windows 7 please do the following if experiencing crashing issues when launching Streamlabs OBS
 
