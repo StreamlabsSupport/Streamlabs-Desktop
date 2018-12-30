@@ -87,36 +87,6 @@ Please enable Aero on Windows 7:
 4. Enter two lines of command, first type net stop uxsms hit enter and let it process (few secs) then type net start uxsms and hit enter again. 
 4. Aero should now be on and you can open Streamlabs OBS again. Refer to this screenshot to ensure that it is on: https://i.gyazo.com/84d9078f97714481c9d71eada58c78c8.png
 
-## For "Something went wrong" on Windows 7
-
-To resolve this issue on Windows 7, download and install [.NET Framework 4.7.2](https://www.microsoft.com/net/download/dotnet-framework-runtime)
-
-## For troubleshooting "Something went wrong, unable to update", please do the following steps in this order:
-
-- Redownload Streamlabs OBS from: https://streamlabs.com/slobs and run the installer as administrator.
-    - There should be no need to uninstall or delete any data prior doing so.
-
-- Update hardware drivers/Windows
-
-- Install [Windows C++ Redistributable](#install-visual-c-redistributable)
-
-- [Firewall fix](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/Open-Windows-Firewall)
-- [IPv6 fix](https://support.streamlabs.com/hc/en-us/articles/115004232954-How-to-solve-IPv6-issues)
-
-- [Install DirectX](https://www.microsoft.com/en-us/download/details.aspx?id=35)
-- If that above DirectX does not work, then please try this as well
-    - https://obsproject.com/forum/resources/directx-dependency-fixer-dxfix.87/
-
-> If you are still having the issue you could try to clear the user data of Streamlabs OBS and see if that could resolve the issue with starting up. Do keep in mind by doing so you are deleting user data and you need to login, redo your settings and potentially re-adjust your scenes and scene collections depending on the cloud recovery. **Not recommended but only used as last resort.**
-
-- Make sure Streamlabs OBS is closed and not running in the background in task manager.
-- Navigate to `%appdata%` in Windows explorer.
-- Rename `slobs-client` to `_slobs-client` found here.
-- Start Streamlabs OBS and close it again (without logging in).
-- Copy the folders `SceneCollections` from `_slobs-client` to `slobs-client`.
-- Start Streamlabs OBS again and log in.
-- Redo the settings as these are not recovered.
-
 ## Streamlabs OBS randomly crashes during streaming
 
 1. Update your video drivers and other hardware drivers/software.
