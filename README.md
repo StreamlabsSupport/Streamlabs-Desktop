@@ -115,17 +115,18 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 
 ## Capture Not Working (Black Screen)
 
-* If you have Studio Mode Enabled, please disable it first, then see if that fixes your issue, else try the steps below.
 * Delete the capture source, restart Streamlabs OBS as administrator, and re-add source.
     - Right click the shortcut on your desktop and select `Run as Administrator`.
 * Have Streamlabs OBS installed in Program Files (default install location).
     - Some games and Windows Store games, like Sea of Thieves, need this due to given additional permissions.
-* Use `Capture Specific Window` mode if using Game Capture and/or toggle anti-cheat hook.
+* Use `Capture Specific Window` or `Capture foreground window with hotkey` to force the capture to the game.
+* Try toggling the Anti-cheat hook on or off.
 
 * [Disable 3rd party in-game overlays](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
 * [Install Visual C++ Redistributable](#install-visual-c-redistributable)
 * [Have updated drivers and software](#have-updated-drivers-and-software)
 
+* If that did not help, adjust in-game settings to borderless fullscreen instead of (exclusive) fullscreen if used or try a window capture then instead (while using borderless fullscreen). Some games are also impossible to capture with a game capture.
 
 ### Display capture not working for Nvidia notebook users
 
