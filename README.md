@@ -33,10 +33,17 @@ Streamlabs OBS requires some additional files (Visual C++ 2017 Redistributables)
 
 ## Cannot maximize/open Streamlabs OBS from taskbar
 
-If your Streamlabs OBS is open but you are unable to see the window, but it is on the taskbar where you see a preview of the window please select the program so it is highlighted on the taskbar. Then you press `left alt` and `spacebar`. This should open a context menu on the top-left of your screen, where you select `Maximize`.
+If your Streamlabs OBS is open but you are unable to see the window, but it is on the taskbar where you see a preview of the window please select the program so it is highlighted on the taskbar. Then you press `left alt`+`spacebar`. This should open a context menu on the top-left of your screen, where you select `Maximize`.
 
+If that did not work you could try selecting Streamlabs OBS in the task bar and use `winlogo`+`shift` and use the `left/right arrow key` to try moving the window to another screen.
 
-## Update is stuck at 100%
+## Streamlabs OBS is stuck maximized
+
+Close Streamlabs OBS and navigate to `%appdata%\slobs-client` in Windows (by Search, winlogo+r, or in Explorer address bar) and in here delete the file `window-state.json` and start Streamlabs OBS again.
+
+If you are having issues navigating to the folder, in Streamlabs OBS settings, click `Show Cache Directory` and open the `slobs-client` folder found in the folder that opens.
+
+## Update is stuck or crashes
 
 Redownload Streamlabs OBS from [https://streamlabs.com/slobs](https://streamlabs.com/slobs) and run the installer as administrator.
 > There should be no need to uninstall or delete any data prior doing so.
