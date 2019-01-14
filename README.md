@@ -202,10 +202,6 @@ If this did not work either or get the following error;
 
 If the above steps did not work then `Delete Cache and Restart` found in Settings. This will **wipe** all user data, including scenes and settings, but after logging in the cloud recovery should recover your scenes. You need to **redo** your settings but this could fix the not going live issue.
 
-## Stream starting in 0 seconds (or negative value)
-
-In settings advanced ensure a negative value is not set as the stream delay it must be 0 or greater. 
-
 
 ## Recording is not working or saved
 
