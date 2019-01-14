@@ -213,14 +213,6 @@ In settings advanced ensure a negative value is not set as the stream delay it m
 
 - Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 - Have up-to-date video drivers of your graphics card
-- Use anything else except lossless quality
-    - If used this, set to another quality and then restart the application
-
-> Error; Failed to connect to the streaming server. Please check your internet connection.
-
-- Do not use custom FFMPEG
-    - Advanced Output Settings -> Recording -> Type
-- Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 
 > Error; An unexpected error occured:
 
