@@ -17,7 +17,7 @@ Especially make sure your video drivers are up to date to the latest version.
 # Streamlabs OBS Issues and Solutions
 
 - Roadmap > [found on Trello](https://trello.com/b/oTl4KiBW/streamlabs-obs-roadmap)
-- Backups > Always make backups during beta testing! Settings > Overlays > Export
+- Backups > Always make backups during beta testing! Settings > Scene Collections > Export
 - User Data > User data can be found in `%appdata%\slobs-client`
 
 
@@ -31,23 +31,17 @@ Streamlabs OBS requires some additional files (Visual C++ 2017 Redistributables)
 *Both the 32 bit and 64 bit versions should be installed, even if you have a 64 bit version of Windows.*
 
 
-## Cannot maximize/open Streamlabs OBS from taskbar
+## Cannot maximize/open Streamlabs OBS from taskbar*
 
 If your Streamlabs OBS is open but you are unable to see the window, but it is on the taskbar where you see a preview of the window please select the program so it is highlighted on the taskbar. Then you press `left alt`+`spacebar`. This should open a context menu on the top-left of your screen, where you select `Maximize`.
 
 If that did not work you could try selecting Streamlabs OBS in the task bar and use `winlogo`+`shift` and use the `left/right arrow key` to try moving the window to another screen.
 
-## Streamlabs OBS is stuck maximized
+## Streamlabs OBS is stuck maximized*
 
 Close Streamlabs OBS and navigate to `%appdata%\slobs-client` in Windows (by Search, winlogo+r, or in Explorer address bar) and in here delete the file `window-state.json` and start Streamlabs OBS again.
 
 If you are having issues navigating to the folder, in Streamlabs OBS settings, click `Show Cache Directory` and open the `slobs-client` folder found in the folder that opens.
-
-## Update is stuck or crashes
-
-Redownload Streamlabs OBS from [https://streamlabs.com/slobs](https://streamlabs.com/slobs) and run the installer as administrator.
-> There should be no need to uninstall or delete any data prior doing so.
-
 
 ## Game optimized encoder settings
 
@@ -194,6 +188,10 @@ We should mention that some options may differ depending on your driver version 
 
 If this did not work either or get the following error;
 > Invalid Path or Connection URL. Please check your settings to confirm that they are valid.
+
+Error; Failed to connect to the streaming server. Please check your internet connection.
+Go to Settings > Advanced and scroll down to the Bind to IP option. Change it from Default to your local machines.
+        It should begin with 192.168.x.x or 10.0.x.x or any that are just numbers. Try to go live again.
 
 1. Go to `Stream` in Settings and select a **different** service than you want to use.
 2. Select the streaming service you want to use again, this reloads the available servers.
