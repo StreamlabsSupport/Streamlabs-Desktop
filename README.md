@@ -45,17 +45,11 @@ If you are having issues navigating to the folder, in Streamlabs OBS settings, c
 
 ## Game optimized encoder settings
 
-The game optimized encoder settings is currently only available when using **software (x264)** encoding and using **Twitch** as streaming service. If you use both, you can then enable the **use optimized encoder settings** found in the *Go Live* pop-up, where you set your Game and Title. The profile selection is only in effect when **Use optimized encoder settings** is enabled.
+The game-aware optimized encoder settings can be enabled before you go live when you have "Confirm stream title and game before going live" enabled. When available you can then enable the "Use optimized encoder settings" which then applies the optimized game-specific encoding settings when you go live.
 
 *Using this, will override the set preset and any custom x264 flags you have set, with the machine learned values.*
 
-- **Medium profile**; CPU usage is equivalent to x264 profile **veryfast** but optimized for gameplay.
-- **Low profile**; CPU usage is equivalent to x264 profile **ultrafast** but optimized for gameplay.
-
-If you use a dedicated stream PC to encode or you have a powerful single PC that manages to go slower than veryfast, for example medium, it would not be best to use the optimized encoder settings, as no higher profile exists at this moment.
-
-If you do not see the pop-up to set the game or title, make sure that **Confirm stream title and game before going live** is set found in the General Settings.
-
+A list of optimized games can be [found here](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/List-of-Games-for-the-Video-Encoding-Optimization) and if the game is not on the list, generic optimization settings will be applied specific for gameplay footage so you will always get better results.
 
 ## Streamlabs OBS crashes during startup
 
