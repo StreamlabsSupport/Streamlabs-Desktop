@@ -183,14 +183,18 @@ We should mention that some options may differ depending on your driver version 
 If this did not work either or get the following error;
 > Invalid Path or Connection URL. Please check your settings to confirm that they are valid.
 
-Error; Failed to connect to the streaming server. Please check your internet connection.
-Go to Settings > Advanced and scroll down to the Bind to IP option. Change it from Default to your local machines.
-        It should begin with 192.168.x.x or 10.0.x.x or any that are just numbers. Try to go live again.
-
 1. Go to `Stream` in Settings and select a **different** service than you want to use.
 2. Select the streaming service you want to use again, this reloads the available servers.
 3. Select the server you want to use (**do not use auto**)
 5. Try going live again.
+
+If this did not work either or get the following error;
+> Failed to connect to the streaming server. Please check your internet connection.
+
+1. Go to Settings > Advanced and scroll down to the Bind to IP option. Change it from Default to your local machines.
+    - Default local IP address begin with 192.168.x.x or 10.0.x.x
+    - You can use `ipconfig /all` in command prompt (cmd.exe) to see to PC's local IP address.
+2. Try going live again.
 
 If the above steps did not work then `Delete Cache and Restart` found in Settings. This will **wipe** all user data, including scenes and settings, but after logging in the cloud recovery should recover your scenes. You need to **redo** your settings but this could fix the not going live issue.
 
