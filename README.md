@@ -212,9 +212,6 @@ If the above steps did not work then `Delete Cache and Restart` found in Setting
 
 > Error; An unexpected error occurred: Unable to write to. Make sure you're using a recording path which your user account is allowed and that there is sufficient disk space.
 
-- Do not use Replay buffer (not functional anyway)
-    - Simple Output settings -> Recording (at the bottom)
-
 
 ## Recording + Streaming Performance Issues
 
