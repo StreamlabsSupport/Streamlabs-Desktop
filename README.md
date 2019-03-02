@@ -246,7 +246,7 @@ For the Razer Ripsaw, try to select `HDMI + Aux` as audio input for the HDMI vid
 
 ## I cannot find the side-dock with chat
 
-The side-dock with chat can only be shown when the total width of Streamlabs OBS is 1100px or greater. So monitors that have a horizontal resolution less than that (or you are using landscape, causing this) chat is currently unavailable. If the total width of Streamlabs OBS does meet this criteria you'll see a thin bar either on the left or right (depending on your appearance settings) to slide open the dock.
+The side-dock with chat can only be shown when the total width of Streamlabs OBS is 1100px or greater. So monitors that have a horizontal resolution less than that (or you are using portrait, causing this) chat is currently unavailable. If the total width of Streamlabs OBS does meet this criteria you'll see a thin bar either on the left or right (depending on your appearance settings) to slide open the dock.
 
 
 ## Set side-dock with the chat to left side
