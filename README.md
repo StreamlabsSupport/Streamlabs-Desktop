@@ -123,6 +123,8 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 
 ### Display capture not working for Nvidia notebook users
 
+First disable **Force GPU as render device** in `Settings > Advanced (Video section)` https://prnt.sc/mzzm1s and restart Streamlabs OBS. If that does not resolve the display capture issue then also do the following;
+
 1.   Have Streamlabs OBS shortcut on your desktop, if not add it.
 2.   Right-click the `Streamlabs OBS` shortcut and select `Run with graphics processor -> Integrated graphics`.
         - https://prnt.sc/kwyv9x
@@ -138,6 +140,8 @@ Furthermore, try to limit the frames output by the GPU with the likes of V-Sync,
 > If you receive an error saying you do not have the privilege to select the graphics processor in this menu: Right click Streamlabs OBS > Properties > Compatability > Untick "Always run as admin" > http://prntscr.com/kzh8as
 
 ### AMD/ATI Notebeook users with latest Windows 10 April 2018 (1803) update
+
+First disable **Force GPU as render device** in `Settings > Advanced (Video section)` https://prnt.sc/mzzm1s and restart Streamlabs OBS. If that does not resolve the display capture issue then also do the following;
 
 1. Open Windows 10 settings
 2. Select `System`
