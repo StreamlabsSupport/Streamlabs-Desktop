@@ -87,6 +87,13 @@ Please enable Aero on Windows 7:
 3. Try running Streamlabs OBS as administrator.
 4. [Disable 3rd party in-game overlays](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
 
+## Streamlabs OBS crashes when switching scene collections when using a stinger transition
+
+Unfortunately this is due to Streamlabs OBS trying to fire a stinger transition when switching scene collections. This happens if the scene collections were originally duplicated at some point. We have two solutions here until it is fixed. 
+ 
+1) Delete the scene collection that was duplicated and set it up fresh. You can copy and paste your sources just make sure you do not use the duplicate scene collection option. 
+2) If you do not want to do the first option you can disable the stinger transition in the meantime which will stop the crash occuring. 
+
 ## Stream goes offline when switching scenes (0kbps bug)
 
 If you are still experiencing the issue where the encoder fails when switching scenes you will need to open the transition menu and add a new transition of any type. Once you have done this simply deleting the previous transition should resolve the issue. Gif of how to do this here: https://goo.gl/mgzcBc
