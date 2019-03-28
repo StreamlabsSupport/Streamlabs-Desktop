@@ -69,7 +69,6 @@ A list of optimized games can be [found here](https://github.com/StreamlabsSuppo
 - Delete or rename (to keep a backup) `slobs-client` that is found here.
 - Try starting Streamlabs OBS again (as administrator)
 
-
 ## If you are on Windows 7 please do the following if experiencing crashing issues when launching Streamlabs OBS
 
 Please enable Aero on Windows 7:
@@ -111,6 +110,8 @@ In some cases using 3rd party in-game overlays could cause additional FPS drop o
 If you are using Windows 10, make sure that in Windows Settings you have disabled at least the `Game DVR` feature, and you can also try to disable the `Game Bar` features but this can cause issues with certain Windows Store games and applications if they are using this. You can find these options via the Windows 10 new settings panel -> Gaming.
 
 Furthermore, try to limit the frames output by the GPU with the likes of V-Sync, G-Sync or Free-sync to the monitors refresh rate, as rendering more frames is a waste of resources if this is causing issues while capturing the game. You could even play and limit the games to 120FPS by using 120Hz as monitor refresh rate, as this is a nice number to be divided to 30 and 60fps for streaming!
+
+If you do encounter issues while having G-Sync enabled, try disabling G-Sync first to see if that helps and keep it disabled for further troubleshooting the issue.
 
 
 ## Capture Not Working (Black Screen)
@@ -269,8 +270,6 @@ In Settings > Appearance you can checkmark `Show the live dock (chat) on the lef
 
 Read [Streamlabs OBS Remote Control](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/SL-OBS-Remote-Control) page for setting up Remote Control and troubleshooting steps for unable to connect, broken camera, unsupported device warning, or connecting over the internet.
 
-
-
 [![](http://img.youtube.com/vi/CihXy5UVP64/0.jpg)](http://www.youtube.com/watch?v=CihXy5UVP64 "Live Streaming Remote Control for Streamlabs OBS!")
 
 
@@ -289,11 +288,11 @@ These issues are most likely caused by overloading either the GPU and CPU. At al
 
 ### Lagged frames
 
-IF you are getting **lagged frames** or the game is having slow FPS then  your GPU is being overloaded. Lower the graphics quality in game so streaming software gets more breathing room to compose the frames for the encoder. You can also limit the FPS or use v-sync. One could even consider locking to 120FPS (and 120Hz) as this is a nice /2 division for 60FPS and /4 division for 30FPS streaming.
+IF you are getting **lagged frames** or the game is having slow FPS then  your GPU is being overloaded. Lower the graphics quality in-game so streaming software gets more breathing room to compose the frames for the encoder. You can also limit the FPS or use v-sync. One could even consider locking to 120FPS as this is a nice /2 division for 60FPS and /4 division for 30FPS streaming. You can also enable V-sync to lock the FPS if availble. If you are using G-Sync you can try disabling this and see if that would help.
+
+In addition you can try the [following few steps](https://github.com/StreamlabsSupport/Streamlabs-OBS#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)  as well to further optimize your system for streaming.
 
 Regardless of software or hardware encoding selection, streaming software requires shared GPU to compose the frames (combine sources) for the encoder to encode.
-
-> Ensure that you in game FPS is not exceeding your monitors refresh rate. Enabling V-Sync in game will help resolve this issue
 
 
 ### Skipped frames
