@@ -95,7 +95,9 @@ Unfortunately this is due to Streamlabs OBS trying to fire a stinger transition 
 
 ## Stream goes offline when switching scenes (0kbps bug)
 
-If you are still experiencing the issue where the encoder fails when switching scenes you will need to open the transition menu and add a new transition of any type. Once you have done this simply deleting the previous transition should resolve the issue. [![Gif of how to do this](https://i.gyazo.com/14ccc8352f365ab4ba6915578f8fc3be.gif)](https://gyazo.com/14ccc8352f365ab4ba6915578f8fc3be)
+If you are still experiencing the issue where the encoder fails when switching scenes you will need to open the transition menu and add a new transition of any type. Once you have done this simply deleting the previous transition should resolve the issue.
+Gif of how to do this:
+[![Gif of how to do this](https://i.gyazo.com/14ccc8352f365ab4ba6915578f8fc3be.gif)](https://gyazo.com/14ccc8352f365ab4ba6915578f8fc3be)
 
 
 ## Game crashes or drops FPS while trying to capture with Streamlabs OBS
