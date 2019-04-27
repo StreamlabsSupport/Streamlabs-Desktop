@@ -23,7 +23,7 @@ Especially make sure your video drivers are up to date to the latest version.
 
 ## Install Visual C++ Redistributable
 
-Streamlabs OBS requires some additional files (Visual C++ 2017 Redistributables) that might not be currently installed on your system. Please download and run **both** of these Microsoft Visual C++ 2017 redistributables. **Restart** you computer after installing this.
+Streamlabs OBS requires some additional files (Visual C++ 2017 Redistributables) that might not be currently installed on your system. Please download and run **both** of these Microsoft Visual C++ 2017 redistributables. **Restart** your computer after installing this.
 
 - [Visual C++ 2017 Redistributable [64bit]](https://aka.ms/vs/15/release/vc_redist.x64.exe)
 - [Visual C++ 2017 Redistributable [32bit]](https://aka.ms/vs/15/release/vc_redist.x86.exe)
@@ -73,11 +73,11 @@ A list of optimized games can be [found here](https://github.com/StreamlabsSuppo
 
 Please enable Aero on Windows 7:
 1. Close Streamlabs OBS and then select an Aero Theme
-        Note: pick this default theme if you do not know which one to pick: https://cdn.discordapp.com/attachments/466431499021844480/492366113162788865/unknown.png
-2. If Aero is ON (check this screenshot to verify: https://i.gyazo.com/84d9078f97714481c9d71eada58c78c8.png) then simply run Streamlabs OBS but if not please continue to the next step
+        Note: pick this default theme if you do not know which one to pick: https://prnt.sc/nhhh9s
+2. If Aero is ON (check this screenshot to verify: https://prnt.sc/nhhhdp) then simply run Streamlabs OBS but if not please continue to the next step
 3. Make sure Streamlabs OBS is closed and that an Aero Theme is selected then search for cmd in windows search bar & run it as admin. 
 4. Enter two lines of command, first type net stop uxsms hit enter and let it process (few secs) then type net start uxsms and hit enter again. 
-4. Aero should now be on and you can open Streamlabs OBS again. Refer to this screenshot to ensure that it is on: https://i.gyazo.com/84d9078f97714481c9d71eada58c78c8.png
+4. Aero should now be on and you can open Streamlabs OBS again. Refer to this screenshot to ensure that it is on: https://prnt.sc/nhhhdp
 
 ## Streamlabs OBS randomly crashes during streaming
 
@@ -95,7 +95,9 @@ Unfortunately this is due to Streamlabs OBS trying to fire a stinger transition 
 
 ## Stream goes offline when switching scenes (0kbps bug)
 
-If you are still experiencing the issue where the encoder fails when switching scenes you will need to open the transition menu and add a new transition of any type. Once you have done this simply deleting the previous transition should resolve the issue. Gif of how to do this here: https://goo.gl/mgzcBc
+If you are still experiencing the issue where the encoder fails when switching scenes you will need to open the transition menu and add a new transition of any type. Once you have done this simply deleting the previous transition should resolve the issue.
+Gif of how to do this:
+[![Gif of how to do this](https://i.gyazo.com/14ccc8352f365ab4ba6915578f8fc3be.gif)](https://gyazo.com/14ccc8352f365ab4ba6915578f8fc3be)
 
 
 ## Game crashes or drops FPS while trying to capture with Streamlabs OBS
