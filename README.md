@@ -145,7 +145,7 @@ First disable **Force GPU as render device** in `Settings > Advanced (Video sect
 2. Select `Desktop` in the menu bar.
 3. Enable `Add "Run with graphics processor" to Context Menu` option.
 
-> If you receive an error saying you do not have the privilege to select the graphics processor in this menu: Right click Streamlabs OBS > Properties > Compatability > Untick "Always run as admin" > http://prntscr.com/kzh8as
+> If you receive an error saying you do not have the privilege to select the graphics processor in this menu: Right click Streamlabs Desktop > Properties > Compatability > Untick "Always run as admin" > http://prntscr.com/kzh8as
 
 ### AMD/ATI Notebeook users with latest Windows 10 April 2018 (1803) update
 
@@ -157,10 +157,10 @@ First disable **Force GPU as render device** in `Settings > Advanced (Video sect
     - This is in the `Display` settings that should be selected by default.
 4. Select `Classic app` and browse to the Streamlabs OBS executable.
     - Default location: `C:\Program Files\Streamlabs OBS\` > `Streamlabs OBS.exe`
-5. Select the newly created Streamlabs OBS and hit options.
+5. Select the newly created Streamlabs Desktop and hit options.
 6. Select `Power Saving Mode` and Save.
 
-### Force SLOBS To Use AMD Graphics Card
+### Force Streamlabs Desktop To Use AMD Graphics Card
 
 Open the AMD Catalyst Control Center app by right-clicking on an empty area on your desktop. Select ‘Catalyst Control Center’ from the context menu. From the list of panels on the left, select ‘Power’. Under ‘Power’, select ‘Switchable application graphics settings’.
 
@@ -173,7 +173,7 @@ We should mention that some options may differ depending on your driver version 
 
 ## Not capturing desktop audio
 
-1) Make sure the audio source is not muted in the mixer on slobs.
+1) Make sure the audio source is not muted in the mixer on Streamlabs Desktop.
 
 2) Some audio management software, like `Nahimic 2`, `Sonic studio sound` or motherboard audio software like `Realtek HD Audio Manager` or `Sound Blaster Recon` are known to cause issues. Try closing that kind of software, and also check Windows taskmanager if any processes with a similar name are running to be closed. If this doesn't work, try going in to your Windows Playback Devices in your Windows Audio Settings, right click on the sound device you are using and click on Properties, then go to the Advanced Tab and uncheck the box that says "Give exclusive mode applications priority" and that should resolve it.
 
@@ -181,16 +181,16 @@ We should mention that some options may differ depending on your driver version 
 
 4) Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 
-5) As last resort, you can temporary use an alternative program to capture audio like `VoiceMeeter Banana`. This program allows you to set it as default device, and then use a *virtual audio cable* into Streamlabs OBS to capture the desktop audio. You can find various guides on the internet (like [this one](http://www.ocgineer.com/audio.html)) or Youtube. 
+5) As last resort, you can temporary use an alternative program to capture audio like `VoiceMeeter Banana`. This program allows you to set it as default device, and then use a *virtual audio cable* into Streamlabs Desktop to capture the desktop audio. You can find various guides on the internet and YouTube. 
 
 
 ## Not going live on the service
 
-1. Log out from SLOBS, restart the application as administrator and log back in. If using Twitch ensure your not running a rerun of a previous stream as this will prevent you going live. If you are simply end it and hit go live again.  
+1. Log out from Streamlabs Desktop, restart the application as administrator and log back in. If using Twitch ensure your not running a rerun of a previous stream as this will prevent you going live. If you are simply end it and hit go live again.  
 2. Double check your stream key if this is still correct.
 3. If using Advanced Output Mode and using NVENC/AMD make sure GPU is set to `0`.
 4. Install [Windows C++ Redistributable](#install-visual-c-redistributable)
-5. If signed into Streamlabs OBS with Twitch you can run the auto-optimizer found in General Settings.  
+5. If signed into Streamlabs Desktop with Twitch you can run the auto-optimizer found in General Settings.  
 
 If this did not work either or get the following error;
 > Invalid Path or Connection URL. Please check your settings to confirm that they are valid.
@@ -208,7 +208,7 @@ If this did not work either or get the following error;
     - You can use `ipconfig /all` in command prompt (cmd.exe) to see to PC's local IP address.
 2. Try going live again.
 
-If the above steps did not work then `Delete Cache and Restart` found in Settings. This will **wipe** all user data, including scenes and settings, but after logging in the cloud recovery should recover your scenes. You need to **redo** your settings but this could fix the not going live issue.
+If none of these steps work, reach out to our support team in our discord discord.gg/stream     
 
 
 ## Recording is not working or saved
@@ -248,17 +248,17 @@ For the Razer Ripsaw, try to select `HDMI + Aux` as audio input for the HDMI vid
 - Almost every source you use, uses CPU to be functioning properly. The more you have the higher the total CPU usage would be.
 - Downloaded animated overlays can cause high CPU usage due to the webm video files used as overlays.
 - Using many different browser sources can cause high CPU usage, try limiting them or create references.
-- You can delete Streamlabs OBS browser source cache that can cause high CPU usage;
+- You can delete Streamlabs Desktop browser source cache that can cause high CPU usage;
     1. Navigate (or winlogo + r) in Windows to `%appdata%\slobs-client\plugin_config\obs-browser`
     2. Delete `Cache`
-    3. Start Streamlabs OBS again
+    3. Start Streamlabs Desktop again
 
-> Enabling Performance mode in Streamlabs OBS will help reduce load on the GPU/CPU slightly. This can be done by right clicking on the preview and selecting "Performance Mode"
+> Enabling Performance mode in Streamlabs Desktop will help reduce load on the GPU/CPU slightly. This can be done by right clicking on the preview and selecting "Performance Mode"
 
 
 ## I cannot find the side-dock with chat
 
-The side-dock with chat can only be shown when the total width of Streamlabs OBS is 1100px or greater. So monitors that have a horizontal resolution less than that (or you are using portrait, causing this) chat is currently unavailable. If the total width of Streamlabs OBS does meet this criteria you'll see a thin bar either on the left or right (depending on your appearance settings) to slide open the dock.
+The side-dock with chat can only be shown when the total width of Streamlabs Desktop is 1100px or greater. So monitors that have a horizontal resolution less than that (or you are using portrait, causing this) chat is currently unavailable. If the total width of Streamlabs OBS does meet this criteria you'll see a thin bar either on the left or right (depending on your appearance settings) to slide open the dock.
 
 
 ## Set side-dock with the chat to left side
@@ -266,11 +266,6 @@ The side-dock with chat can only be shown when the total width of Streamlabs OBS
 In Settings > Appearance you can checkmark `Show the live dock (chat) on the left side`.
 
 
-## Connecting Remote Control to Streamlabs OBS
-
-Read [Streamlabs OBS Remote Control](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/SL-OBS-Remote-Control) page for setting up Remote Control and troubleshooting steps for unable to connect, broken camera, unsupported device warning, or connecting over the internet.
-
-[![](http://img.youtube.com/vi/CihXy5UVP64/0.jpg)](http://www.youtube.com/watch?v=CihXy5UVP64 "Live Streaming Remote Control for Streamlabs OBS!")
 
 
 ## Stream is losing frames
