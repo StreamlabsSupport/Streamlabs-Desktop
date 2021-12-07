@@ -1,6 +1,5 @@
-## Getting started with Streamlabs OBS
+## Getting started with Streamlabs Desktop
 
-Check out [this Wiki page](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/Getting-Started-with-SL-OBS) for an quick getting started guide with Streamlabs OBS.
 
 
 ## Have updated drivers and software
@@ -11,19 +10,18 @@ Especially make sure your video drivers are up to date to the latest version.
 
 
 
-[![](http://img.youtube.com/vi/d--1z_W9IVw/0.jpg)](http://www.youtube.com/watch?v=d--1z_W9IVw "How to Download, Install, and Go Live with Streamlabs OBS | Streamlabs OBS Tutorial")
+[![](http://img.youtube.com/vi/d--1z_W9IVw/0.jpg)](http://www.youtube.com/watch?v=d--1z_W9IVw "How to Download, Install, and Go Live with Streamlabs Desktop | Streamlabs Desktop Tutorial")
 
 
-# Streamlabs OBS Issues and Solutions
+# Streamlabs Desktop Issues and Solutions
 
-- Roadmap > [found on Trello](https://trello.com/b/oTl4KiBW/streamlabs-obs-roadmap)
 - Backups > Always make backups during beta testing! Settings > Scene Collections > Export
 - User Data > User data can be found in `%appdata%\slobs-client`
 
 
 ## Install Visual C++ Redistributable
 
-Streamlabs OBS requires some additional files (Visual C++ 2017 Redistributables) that might not be currently installed on your system. Please download and run **both** of these Microsoft Visual C++ 2017 redistributables. **Restart** your computer after installing this.
+Streamlabs Desktop requires some additional files (Visual C++ 2017 Redistributables) that might not be currently installed on your system. Please download and run **both** of these Microsoft Visual C++ 2017 redistributables. **Restart** your computer after installing this.
 
 - [Visual C++ 2017 Redistributable [64bit]](https://aka.ms/vs/15/release/vc_redist.x64.exe)
 - [Visual C++ 2017 Redistributable [32bit]](https://aka.ms/vs/15/release/vc_redist.x86.exe)
@@ -31,17 +29,17 @@ Streamlabs OBS requires some additional files (Visual C++ 2017 Redistributables)
 *Both the 32 bit and 64 bit versions should be installed, even if you have a 64 bit version of Windows.*
 
 
-## Cannot maximize/open Streamlabs OBS from taskbar*
+## Cannot maximize/open Streamlabs Desktop from taskbar*
 
-If your Streamlabs OBS is open but you are unable to see the window, but it is on the taskbar where you see a preview of the window please select the program so it is highlighted on the taskbar. Then you press `left alt`+`spacebar`. This should open a context menu on the top-left of your screen, where you select `Maximize`.
+If your Streamlabs Desktop is open but you are unable to see the window, but it is on the taskbar where you see a preview of the window please select the program so it is highlighted on the taskbar. Then you press `left alt`+`spacebar`. This should open a context menu on the top-left of your screen, where you select `Maximize`.
 
 If that did not work you could try selecting Streamlabs OBS in the task bar and use `winlogo`+`shift` and use the `left/right arrow key` to try moving the window to another screen.
 
-## Streamlabs OBS is stuck maximized*
+## Streamlabs Desktop is stuck maximized*
 
-Close Streamlabs OBS and navigate to `%appdata%\slobs-client` in Windows (by Search, winlogo+r, or in Explorer address bar) and in here delete the file `window-state.json` and start Streamlabs OBS again.
+Close Streamlabs Desktop and navigate to `%appdata%\slobs-client` in Windows (by Search, winlogo+r, or in Explorer address bar) and in here delete the file `window-state.json` and start Streamlabs OBS again.
 
-If you are having issues navigating to the folder, in Streamlabs OBS settings, click `Show Cache Directory` and open the `slobs-client` folder found in the folder that opens.
+If you are having issues navigating to the folder, in Streamlabs Desktop settings, click `Show Cache Directory` and open the `slobs-client` folder found in the folder that opens.
 
 ## Game optimized encoder settings
 
@@ -51,44 +49,44 @@ The game-aware optimized encoder settings can be enabled before you go live when
 
 A list of optimized games can be [found here](https://github.com/StreamlabsSupport/Streamlabs-OBS/wiki/List-of-Games-for-the-Video-Encoding-Optimization) and if the game is not on the list, generic optimization settings will be applied specific for gameplay footage so you will always get better results.
 
-## Streamlabs OBS crashes during startup
+## Streamlabs Desktop crashes during startup
 
-> Do not try to run Streamlabs OBS on a Mac(book) with bootcamp or on macOS with Wine. These are currently not supported and we cannot provide any assistance with this. Most likely the cause for Bootcamp users is the lack of proper updated video drivers, and for Wine it would be vital required components.
+> Do not try to run Streamlabs Desktop on a Mac(book) with bootcamp or on macOS with Wine. These are currently not supported and we cannot provide any assistance with this. Most likely the cause for Bootcamp users is the lack of proper updated video drivers, and for Wine it would be vital required components.
 
 - Reboot your computer.
-- Try starting Streamlabs OBS as administrator.
+- Try starting Streamlabs Desktop as administrator.
 - Update your video drivers and other hardware drivers/software (reboot after updating).
 - Install [Windows C++ Redistributable](#install-visual-c-redistributable)
 - [Download](http://streamlabs.com/slobs) latest installer and run this as administrator while any AV is disabled temorarily.
 - Add `%appdata%\slobs-client` directory to your Anti-Virus whitelist to not scan/block there.
 
-> If you are still having the issue you could try to clear the user data of Streamlabs OBS and see if that could resolve the issue with starting up. Do keep in mind by doing so you are deleting user data and you need to login, redo your settings and potentially re-adjust your scenes and scene collections depending on the cloud recovery.
+> If you are still having the issue you could try to clear the user data of Streamlabs Desktop and see if that could resolve the issue with starting up. Do keep in mind by doing so you are deleting user data and you need to login, redo your settings and potentially re-adjust your scenes and scene collections depending on the cloud recovery.
 
-- Make sure Streamlabs OBS is closed and not running in the background in task manager.
+- Make sure Streamlabs Desktop is closed and not running in the background in task manager.
 - Navigate to `%appdata%` in Windows (winlogo+r or search).
 - Delete or rename (to keep a backup) `slobs-client` that is found here.
-- Try starting Streamlabs OBS again (as administrator)
+- Try starting Streamlabs Desktop again (as administrator)
 
-## If you are on Windows 7 please do the following if experiencing crashing issues when launching Streamlabs OBS
+## If you are on Windows 7 please do the following if experiencing crashing issues when launching Streamlabs Desktop
 
 Please enable Aero on Windows 7:
-1. Close Streamlabs OBS and then select an Aero Theme
+1. Close Streamlabs Desktop and then select an Aero Theme
         Note: pick this default theme if you do not know which one to pick: https://prnt.sc/nhhh9s
 2. If Aero is ON (check this screenshot to verify: https://prnt.sc/nhhhdp) then simply run Streamlabs OBS but if not please continue to the next step
-3. Make sure Streamlabs OBS is closed and that an Aero Theme is selected then search for cmd in windows search bar & run it as admin. 
+3. Make sure Streamlabs Desktop is closed and that an Aero Theme is selected then search for cmd in windows search bar & run it as admin. 
 4. Enter two lines of command, first type net stop uxsms hit enter and let it process (few secs) then type net start uxsms and hit enter again. 
 4. Aero should now be on and you can open Streamlabs OBS again. Refer to this screenshot to ensure that it is on: https://prnt.sc/nhhhdp
 
-## Streamlabs OBS randomly crashes during streaming
+## Streamlabs Desktop randomly crashes during streaming
 
 1. Update your video drivers and other hardware drivers/software.
 2. Install [Windows C++ Redistributable](#install-visual-c-redistributable)
-3. Try running Streamlabs OBS as administrator.
+3. Try running Streamlabs Desktop as administrator.
 4. [Disable 3rd party in-game overlays](#game-crashes-or-drops-fps-while-trying-to-capture-with-streamlabs-obs)
 
-## Streamlabs OBS crashes when switching scene collections when using a stinger transition
+## Streamlabs Desktop crashes when switching scene collections when using a stinger transition
 
-Unfortunately this is due to Streamlabs OBS trying to fire a stinger transition when switching scene collections. This happens if the scene collections were originally duplicated at some point. We have two solutions here until it is fixed. 
+This is due to Streamlabs Desktop trying to fire a stinger transition when switching scene collections. This happens if the scene collections were originally duplicated at some point. We have two solutions here until it is fixed. 
  
 1) Delete the scene collection that was duplicated and set it up fresh. You can copy and paste your sources just make sure you do not use the duplicate scene collection option. 
 2) If you do not want to do the first option you can disable the stinger transition in the meantime which will stop the crash occuring. 
@@ -100,7 +98,7 @@ Gif of how to do this:
 [![Gif of how to do this](https://i.gyazo.com/14ccc8352f365ab4ba6915578f8fc3be.gif)](https://gyazo.com/14ccc8352f365ab4ba6915578f8fc3be)
 
 
-## Game crashes or drops FPS while trying to capture with Streamlabs OBS
+## Game crashes or drops FPS while trying to capture with Streamlabs Desktop
 
 In some cases using 3rd party in-game overlays could cause additional FPS drop or instabilities, especially when you have multiple. If you ever encounter any issues, try disabling them and see if that would increase your performance or stability. A few examples of 3rd party software providing in-game overlays that you can disable if needed;
 - Nvidia GeForce Experience In-Game Overlay
@@ -118,9 +116,9 @@ If you do encounter issues while having G-Sync enabled, try disabling G-Sync fir
 
 ## Capture Not Working (Black Screen)
 
-* Delete the capture source, restart Streamlabs OBS as administrator, and re-add source.
+* Delete the capture source, restart Streamlabs Desktop as administrator, and re-add source.
     - Right click the shortcut on your desktop and select `Run as Administrator`.
-* Have Streamlabs OBS installed in Program Files (default install location).
+* Have Streamlabs Desktop installed in Program Files (default install location).
     - Some games and Windows Store games, like Sea of Thieves, need this due to given additional permissions.
 * Use `Capture Specific Window` or `Capture foreground window with hotkey` to force the capture to the game.
 * Try toggling the Anti-cheat hook on or off.
@@ -133,10 +131,10 @@ If you do encounter issues while having G-Sync enabled, try disabling G-Sync fir
 
 ### Display capture not working for Nvidia notebook users
 
-First disable **Force GPU as render device** in `Settings > Advanced (Video section)` https://prnt.sc/mzzm1s and restart Streamlabs OBS. If that does not resolve the display capture issue then also do the following;
+First disable **Force GPU as render device** in `Settings > Advanced (Video section)` https://prnt.sc/mzzm1s and restart Streamlabs Desktop. If that does not resolve the display capture issue then also do the following;
 
-1.   Have Streamlabs OBS shortcut on your desktop, if not add it.
-2.   Right-click the `Streamlabs OBS` shortcut and select `Run with graphics processor -> Integrated graphics`.
+1.   Have Streamlabs Desktop shortcut on your desktop, if not add it.
+2.   Right-click the `Streamlabs Desktop` shortcut and select `Run with graphics processor -> Integrated graphics`.
         - https://prnt.sc/kwyv9x
 
 > If you cannot find the option Run with graphics processor in the context menu then follow the following extra steps.
